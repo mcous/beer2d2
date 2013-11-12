@@ -1,0 +1,3131 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:analog-ic
+LIBS:avr-mcu
+LIBS:bluegiga
+LIBS:connector
+LIBS:freescale-ic
+LIBS:ftdi-ic
+LIBS:maxim-ic
+LIBS:micrel-ic
+LIBS:microchip-ic
+LIBS:sharp-relay
+LIBS:sparkfun
+LIBS:standard
+LIBS:stmicro-mcu
+LIBS:ti-ic
+LIBS:7400
+LIBS:beer2d2-pcb-cache
+EELAYER 27 0
+EELAYER END
+$Descr A 11000 8500
+encoding utf-8
+Sheet 2 2
+Title "bber2d2 (working title) front led panel"
+Date "12 nov 2013"
+Rev "0.1"
+Comp "Wiley Cousins, LLC."
+Comment1 "shared under the terms of the Creative Commons Attribution Share-Alike 3.0 license"
+Comment2 "open source hardware"
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L PNP-BJT_SOT Q?
+U 1 1 5282858D
+P 1300 6600
+F 0 "Q?" H 1450 6750 60  0000 C CNN
+F 1 "MMBT4403" H 1100 6750 60  0000 C CNN
+F 2 "~" H 1300 6600 60  0001 C CNN
+F 3 "~" H 1300 6600 60  0001 C CNN
+F 4 "ON Semiconductor" H 1300 6600 60  0001 C CNN "Manufacturer"
+F 5 "MMBT4403LT3G" H 1300 6600 60  0001 C CNN "Part"
+F 6 "http://www.digikey.com/product-detail/en/MMBT4403LT3G/MMBT4403LT3GOSCT-ND/2705124" H 1300 6600 60  0001 C CNN "Link"
+	1    1300 6600
+	-1   0    0    1   
+$EndComp
+Text HLabel 2050 6600 2    60   Input ~ 0
+COL0
+$Comp
+L R R?
+U 1 1 5282860C
+P 1800 6600
+F 0 "R?" H 1700 6700 60  0000 C CNN
+F 1 "1kΩ" H 1950 6700 60  0000 C CNN
+F 2 "~" H 1800 6600 60  0001 C CNN
+F 3 "~" H 1800 6600 60  0001 C CNN
+F 4 "Samsung" H 1800 6600 60  0001 C CNN "Manufacturer"
+F 5 "RC1608J102CS" H 1800 6600 60  0001 C CNN "Part"
+F 6 "http://www.digikey.com/product-detail/en/RC1608J102CS/1276-5062-1-ND/3968034" H 1800 6600 60  0001 C CNN "Link"
+	1    1800 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 5282864D
+P 1300 6450
+F 0 "R?" H 1200 6550 60  0000 C CNN
+F 1 "10kΩ" H 1450 6550 60  0000 C CNN
+F 2 "~" H 1300 6450 60  0001 C CNN
+F 3 "~" H 1300 6450 60  0001 C CNN
+F 4 "Samsung" H 1300 6450 60  0001 C CNN "Manufacturer"
+F 5 "RC1608J103CS" H 1300 6450 60  0001 C CNN "Part"
+F 6 "http://www.digikey.com/product-detail/en/RC1608J103CS/1276-5086-1-ND/3968058" H 1300 6450 60  0001 C CNN "Link"
+	1    1300 6450
+	1    0    0    -1  
+$EndComp
+$Comp
+L VCC #PWR016
+U 1 1 52828692
+P 950 6450
+F 0 "#PWR016" H 950 6550 30  0001 C CNN
+F 1 "VCC" H 950 6550 30  0000 C CNN
+F 2 "" H 950 6450 60  0000 C CNN
+F 3 "" H 950 6450 60  0000 C CNN
+	1    950  6450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1050 6550 1050 6450
+Wire Wire Line
+	950  6450 1150 6450
+Wire Wire Line
+	1450 6450 1550 6450
+Wire Wire Line
+	1550 6450 1550 6600
+Wire Wire Line
+	1450 6600 1650 6600
+Connection ~ 1550 6600
+Wire Wire Line
+	2050 6600 1950 6600
+$Comp
+L R R?
+U 1 1 528286BB
+P 1250 1350
+F 0 "R?" H 1250 1150 60  0000 C CNN
+F 1 "68Ω" H 1250 1250 60  0000 C CNN
+F 2 "~" H 1250 1350 60  0001 C CNN
+F 3 "~" H 1250 1350 60  0001 C CNN
+F 4 "Samsung" H 1250 1350 60  0001 C CNN "Manufacturer"
+F 5 "RC1608J680CS" H 1250 1350 60  0001 C CNN "Part"
+F 6 "http://www.digikey.com/product-detail/en/RC1608J680CS/1276-5034-1-ND/3968006" H 1250 1350 60  0001 C CNN "Link"
+	1    1250 1350
+	-1   0    0    1   
+$EndComp
+$Comp
+L NPN-BJT_SOT Q?
+U 1 1 52828A7E
+P 1900 4900
+F 0 "Q?" H 2000 5050 60  0000 C CNN
+F 1 "MMBT4401" H 1650 5050 60  0000 C CNN
+F 2 "~" H 1900 4900 60  0001 C CNN
+F 3 "~" H 1900 4900 60  0001 C CNN
+F 4 "ON Semiconductor" H 1900 4900 60  0001 C CNN "Manufacturer"
+F 5 "MMBT4401LT1G" H 1900 4900 60  0001 C CNN "Part"
+F 6 "http://www.digikey.com/product-detail/en/MMBT4401LT1G/MMBT4401LT1GOSCT-ND/1139819" H 1900 4900 60  0001 C CNN "Link"
+	1    1900 4900
+	1    0    0    -1  
+$EndComp
+Text Label 800  6650 0    60   ~ 0
+COL0
+Text HLabel 1150 4900 0    60   Input ~ 0
+ROW0
+$Comp
+L R R?
+U 1 1 52828B83
+P 1900 5050
+F 0 "R?" H 1800 4950 60  0000 C CNN
+F 1 "10kΩ" H 2050 4950 60  0000 C CNN
+F 2 "~" H 1900 5050 60  0001 C CNN
+F 3 "~" H 1900 5050 60  0001 C CNN
+F 4 "Samsung" H 1900 5050 60  0001 C CNN "Manufacturer"
+F 5 "RC1608J103CS" H 1900 5050 60  0001 C CNN "Part"
+F 6 "http://www.digikey.com/product-detail/en/RC1608J103CS/1276-5086-1-ND/3968058" H 1900 5050 60  0001 C CNN "Link"
+	1    1900 5050
+	1    0    0    -1  
+$EndComp
+Text Label 2400 4850 2    60   ~ 0
+ROW0
+Wire Wire Line
+	1150 4900 1250 4900
+Wire Wire Line
+	1550 4900 1750 4900
+Wire Wire Line
+	1650 4900 1650 5050
+Wire Wire Line
+	1650 5050 1750 5050
+Connection ~ 1650 4900
+$Comp
+L GND #PWR017
+U 1 1 52828D37
+P 2250 4950
+F 0 "#PWR017" H 2250 4950 30  0001 C CNN
+F 1 "GND" H 2250 4880 30  0001 C CNN
+F 2 "" H 2250 4950 60  0000 C CNN
+F 3 "" H 2250 4950 60  0000 C CNN
+	1    2250 4950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2050 5050 2150 5050
+Wire Wire Line
+	2150 5050 2150 4950
+Wire Wire Line
+	2050 4950 2250 4950
+Connection ~ 2150 4950
+Wire Wire Line
+	2400 4850 2050 4850
+Text Notes 750  4500 0    100  ~ 0
+row control
+Wire Wire Line
+	1150 6550 1050 6550
+Connection ~ 1050 6450
+Wire Wire Line
+	800  6650 1150 6650
+$Comp
+L R R?
+U 1 1 52828E82
+P 1400 4900
+F 0 "R?" H 1300 4750 60  0000 C CNN
+F 1 "1kΩ" H 1500 4750 60  0000 C CNN
+F 2 "~" H 1400 4900 60  0001 C CNN
+F 3 "~" H 1400 4900 60  0001 C CNN
+F 4 "Samsung" H 1400 4900 60  0001 C CNN "Manufacturer"
+F 5 "RC1608J102CS" H 1400 4900 60  0001 C CNN "Part"
+F 6 "http://www.digikey.com/product-detail/en/RC1608J102CS/1276-5062-1-ND/3968034" H 1400 4900 60  0001 C CNN "Link"
+	1    1400 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L NPN-BJT_SOT Q?
+U 1 1 52828F59
+P 3750 4900
+F 0 "Q?" H 3850 5050 60  0000 C CNN
+F 1 "MMBT4401" H 3500 5050 60  0000 C CNN
+F 2 "~" H 3750 4900 60  0001 C CNN
+F 3 "~" H 3750 4900 60  0001 C CNN
+F 4 "ON Semiconductor" H 3750 4900 60  0001 C CNN "Manufacturer"
+F 5 "MMBT4401LT1G" H 3750 4900 60  0001 C CNN "Part"
+F 6 "http://www.digikey.com/product-detail/en/MMBT4401LT1G/MMBT4401LT1GOSCT-ND/1139819" H 3750 4900 60  0001 C CNN "Link"
+	1    3750 4900
+	1    0    0    -1  
+$EndComp
+Text HLabel 3000 4900 0    60   Input ~ 0
+ROW1
+$Comp
+L R R?
+U 1 1 52828F63
+P 3750 5050
+F 0 "R?" H 3650 4950 60  0000 C CNN
+F 1 "10kΩ" H 3900 4950 60  0000 C CNN
+F 2 "~" H 3750 5050 60  0001 C CNN
+F 3 "~" H 3750 5050 60  0001 C CNN
+F 4 "Samsung" H 3750 5050 60  0001 C CNN "Manufacturer"
+F 5 "RC1608J103CS" H 3750 5050 60  0001 C CNN "Part"
+F 6 "http://www.digikey.com/product-detail/en/RC1608J103CS/1276-5086-1-ND/3968058" H 3750 5050 60  0001 C CNN "Link"
+	1    3750 5050
+	1    0    0    -1  
+$EndComp
+Text Label 4250 4850 2    60   ~ 0
+ROW1
+Wire Wire Line
+	3000 4900 3100 4900
+Wire Wire Line
+	3400 4900 3600 4900
+Wire Wire Line
+	3500 4900 3500 5050
+Wire Wire Line
+	3500 5050 3600 5050
+Connection ~ 3500 4900
+$Comp
+L GND #PWR018
+U 1 1 52828F6F
+P 4100 4950
+F 0 "#PWR018" H 4100 4950 30  0001 C CNN
+F 1 "GND" H 4100 4880 30  0001 C CNN
+F 2 "" H 4100 4950 60  0000 C CNN
+F 3 "" H 4100 4950 60  0000 C CNN
+	1    4100 4950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3900 5050 4000 5050
+Wire Wire Line
+	4000 5050 4000 4950
+Wire Wire Line
+	3900 4950 4100 4950
+Connection ~ 4000 4950
+Wire Wire Line
+	4250 4850 3900 4850
+$Comp
+L R R?
+U 1 1 52828F7D
+P 3250 4900
+F 0 "R?" H 3150 4750 60  0000 C CNN
+F 1 "1kΩ" H 3350 4750 60  0000 C CNN
+F 2 "~" H 3250 4900 60  0001 C CNN
+F 3 "~" H 3250 4900 60  0001 C CNN
+F 4 "Samsung" H 3250 4900 60  0001 C CNN "Manufacturer"
+F 5 "RC1608J102CS" H 3250 4900 60  0001 C CNN "Part"
+F 6 "http://www.digikey.com/product-detail/en/RC1608J102CS/1276-5062-1-ND/3968034" H 3250 4900 60  0001 C CNN "Link"
+	1    3250 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L NPN-BJT_SOT Q?
+U 1 1 52828F86
+P 5600 4900
+F 0 "Q?" H 5700 5050 60  0000 C CNN
+F 1 "MMBT4401" H 5350 5050 60  0000 C CNN
+F 2 "~" H 5600 4900 60  0001 C CNN
+F 3 "~" H 5600 4900 60  0001 C CNN
+F 4 "ON Semiconductor" H 5600 4900 60  0001 C CNN "Manufacturer"
+F 5 "MMBT4401LT1G" H 5600 4900 60  0001 C CNN "Part"
+F 6 "http://www.digikey.com/product-detail/en/MMBT4401LT1G/MMBT4401LT1GOSCT-ND/1139819" H 5600 4900 60  0001 C CNN "Link"
+	1    5600 4900
+	1    0    0    -1  
+$EndComp
+Text HLabel 4850 4900 0    60   Input ~ 0
+ROW2
+$Comp
+L R R?
+U 1 1 52828F90
+P 5600 5050
+F 0 "R?" H 5500 4950 60  0000 C CNN
+F 1 "10kΩ" H 5750 4950 60  0000 C CNN
+F 2 "~" H 5600 5050 60  0001 C CNN
+F 3 "~" H 5600 5050 60  0001 C CNN
+F 4 "Samsung" H 5600 5050 60  0001 C CNN "Manufacturer"
+F 5 "RC1608J103CS" H 5600 5050 60  0001 C CNN "Part"
+F 6 "http://www.digikey.com/product-detail/en/RC1608J103CS/1276-5086-1-ND/3968058" H 5600 5050 60  0001 C CNN "Link"
+	1    5600 5050
+	1    0    0    -1  
+$EndComp
+Text Label 6100 4850 2    60   ~ 0
+ROW2
+Wire Wire Line
+	4850 4900 4950 4900
+Wire Wire Line
+	5250 4900 5450 4900
+Wire Wire Line
+	5350 4900 5350 5050
+Wire Wire Line
+	5350 5050 5450 5050
+Connection ~ 5350 4900
+$Comp
+L GND #PWR019
+U 1 1 52828F9C
+P 5950 4950
+F 0 "#PWR019" H 5950 4950 30  0001 C CNN
+F 1 "GND" H 5950 4880 30  0001 C CNN
+F 2 "" H 5950 4950 60  0000 C CNN
+F 3 "" H 5950 4950 60  0000 C CNN
+	1    5950 4950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5750 5050 5850 5050
+Wire Wire Line
+	5850 5050 5850 4950
+Wire Wire Line
+	5750 4950 5950 4950
+Connection ~ 5850 4950
+Wire Wire Line
+	6100 4850 5750 4850
+$Comp
+L R R?
+U 1 1 52828FAA
+P 5100 4900
+F 0 "R?" H 5000 4750 60  0000 C CNN
+F 1 "1kΩ" H 5200 4750 60  0000 C CNN
+F 2 "~" H 5100 4900 60  0001 C CNN
+F 3 "~" H 5100 4900 60  0001 C CNN
+F 4 "Samsung" H 5100 4900 60  0001 C CNN "Manufacturer"
+F 5 "RC1608J102CS" H 5100 4900 60  0001 C CNN "Part"
+F 6 "http://www.digikey.com/product-detail/en/RC1608J102CS/1276-5062-1-ND/3968034" H 5100 4900 60  0001 C CNN "Link"
+	1    5100 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L NPN-BJT_SOT Q?
+U 1 1 52828FB3
+P 7450 4900
+F 0 "Q?" H 7550 5050 60  0000 C CNN
+F 1 "MMBT4401" H 7200 5050 60  0000 C CNN
+F 2 "~" H 7450 4900 60  0001 C CNN
+F 3 "~" H 7450 4900 60  0001 C CNN
+F 4 "ON Semiconductor" H 7450 4900 60  0001 C CNN "Manufacturer"
+F 5 "MMBT4401LT1G" H 7450 4900 60  0001 C CNN "Part"
+F 6 "http://www.digikey.com/product-detail/en/MMBT4401LT1G/MMBT4401LT1GOSCT-ND/1139819" H 7450 4900 60  0001 C CNN "Link"
+	1    7450 4900
+	1    0    0    -1  
+$EndComp
+Text HLabel 6700 4900 0    60   Input ~ 0
+ROW3
+$Comp
+L R R?
+U 1 1 52828FBD
+P 7450 5050
+F 0 "R?" H 7350 4950 60  0000 C CNN
+F 1 "10kΩ" H 7600 4950 60  0000 C CNN
+F 2 "~" H 7450 5050 60  0001 C CNN
+F 3 "~" H 7450 5050 60  0001 C CNN
+F 4 "Samsung" H 7450 5050 60  0001 C CNN "Manufacturer"
+F 5 "RC1608J103CS" H 7450 5050 60  0001 C CNN "Part"
+F 6 "http://www.digikey.com/product-detail/en/RC1608J103CS/1276-5086-1-ND/3968058" H 7450 5050 60  0001 C CNN "Link"
+	1    7450 5050
+	1    0    0    -1  
+$EndComp
+Text Label 7950 4850 2    60   ~ 0
+ROW3
+Wire Wire Line
+	6700 4900 6800 4900
+Wire Wire Line
+	7100 4900 7300 4900
+Wire Wire Line
+	7200 4900 7200 5050
+Wire Wire Line
+	7200 5050 7300 5050
+Connection ~ 7200 4900
+$Comp
+L GND #PWR020
+U 1 1 52828FC9
+P 7800 4950
+F 0 "#PWR020" H 7800 4950 30  0001 C CNN
+F 1 "GND" H 7800 4880 30  0001 C CNN
+F 2 "" H 7800 4950 60  0000 C CNN
+F 3 "" H 7800 4950 60  0000 C CNN
+	1    7800 4950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7600 5050 7700 5050
+Wire Wire Line
+	7700 5050 7700 4950
+Wire Wire Line
+	7600 4950 7800 4950
+Connection ~ 7700 4950
+Wire Wire Line
+	7950 4850 7600 4850
+$Comp
+L R R?
+U 1 1 52828FD7
+P 6950 4900
+F 0 "R?" H 6850 4750 60  0000 C CNN
+F 1 "1kΩ" H 7050 4750 60  0000 C CNN
+F 2 "~" H 6950 4900 60  0001 C CNN
+F 3 "~" H 6950 4900 60  0001 C CNN
+F 4 "Samsung" H 6950 4900 60  0001 C CNN "Manufacturer"
+F 5 "RC1608J102CS" H 6950 4900 60  0001 C CNN "Part"
+F 6 "http://www.digikey.com/product-detail/en/RC1608J102CS/1276-5062-1-ND/3968034" H 6950 4900 60  0001 C CNN "Link"
+	1    6950 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L NPN-BJT_SOT Q?
+U 1 1 52828FF0
+P 9300 4900
+F 0 "Q?" H 9400 5050 60  0000 C CNN
+F 1 "MMBT4401" H 9050 5050 60  0000 C CNN
+F 2 "~" H 9300 4900 60  0001 C CNN
+F 3 "~" H 9300 4900 60  0001 C CNN
+F 4 "ON Semiconductor" H 9300 4900 60  0001 C CNN "Manufacturer"
+F 5 "MMBT4401LT1G" H 9300 4900 60  0001 C CNN "Part"
+F 6 "http://www.digikey.com/product-detail/en/MMBT4401LT1G/MMBT4401LT1GOSCT-ND/1139819" H 9300 4900 60  0001 C CNN "Link"
+	1    9300 4900
+	1    0    0    -1  
+$EndComp
+Text HLabel 8550 4900 0    60   Input ~ 0
+ROW4
+$Comp
+L R R?
+U 1 1 52828FFA
+P 9300 5050
+F 0 "R?" H 9200 4950 60  0000 C CNN
+F 1 "10kΩ" H 9450 4950 60  0000 C CNN
+F 2 "~" H 9300 5050 60  0001 C CNN
+F 3 "~" H 9300 5050 60  0001 C CNN
+F 4 "Samsung" H 9300 5050 60  0001 C CNN "Manufacturer"
+F 5 "RC1608J103CS" H 9300 5050 60  0001 C CNN "Part"
+F 6 "http://www.digikey.com/product-detail/en/RC1608J103CS/1276-5086-1-ND/3968058" H 9300 5050 60  0001 C CNN "Link"
+	1    9300 5050
+	1    0    0    -1  
+$EndComp
+Text Label 9800 4850 2    60   ~ 0
+ROW4
+Wire Wire Line
+	8550 4900 8650 4900
+Wire Wire Line
+	8950 4900 9150 4900
+Wire Wire Line
+	9050 4900 9050 5050
+Wire Wire Line
+	9050 5050 9150 5050
+Connection ~ 9050 4900
+$Comp
+L GND #PWR021
+U 1 1 52829006
+P 9650 4950
+F 0 "#PWR021" H 9650 4950 30  0001 C CNN
+F 1 "GND" H 9650 4880 30  0001 C CNN
+F 2 "" H 9650 4950 60  0000 C CNN
+F 3 "" H 9650 4950 60  0000 C CNN
+	1    9650 4950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9450 5050 9550 5050
+Wire Wire Line
+	9550 5050 9550 4950
+Wire Wire Line
+	9450 4950 9650 4950
+Connection ~ 9550 4950
+Wire Wire Line
+	9800 4850 9450 4850
+$Comp
+L R R?
+U 1 1 52829014
+P 8800 4900
+F 0 "R?" H 8700 4750 60  0000 C CNN
+F 1 "1kΩ" H 8900 4750 60  0000 C CNN
+F 2 "~" H 8800 4900 60  0001 C CNN
+F 3 "~" H 8800 4900 60  0001 C CNN
+F 4 "Samsung" H 8800 4900 60  0001 C CNN "Manufacturer"
+F 5 "RC1608J102CS" H 8800 4900 60  0001 C CNN "Part"
+F 6 "http://www.digikey.com/product-detail/en/RC1608J102CS/1276-5062-1-ND/3968034" H 8800 4900 60  0001 C CNN "Link"
+	1    8800 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L NPN-BJT_SOT Q?
+U 1 1 5282901D
+P 1900 5500
+F 0 "Q?" H 2000 5650 60  0000 C CNN
+F 1 "MMBT4401" H 1650 5650 60  0000 C CNN
+F 2 "~" H 1900 5500 60  0001 C CNN
+F 3 "~" H 1900 5500 60  0001 C CNN
+F 4 "ON Semiconductor" H 1900 5500 60  0001 C CNN "Manufacturer"
+F 5 "MMBT4401LT1G" H 1900 5500 60  0001 C CNN "Part"
+F 6 "http://www.digikey.com/product-detail/en/MMBT4401LT1G/MMBT4401LT1GOSCT-ND/1139819" H 1900 5500 60  0001 C CNN "Link"
+	1    1900 5500
+	1    0    0    -1  
+$EndComp
+Text HLabel 1150 5500 0    60   Input ~ 0
+ROW5
+$Comp
+L R R?
+U 1 1 52829027
+P 1900 5650
+F 0 "R?" H 1800 5550 60  0000 C CNN
+F 1 "10kΩ" H 2050 5550 60  0000 C CNN
+F 2 "~" H 1900 5650 60  0001 C CNN
+F 3 "~" H 1900 5650 60  0001 C CNN
+F 4 "Samsung" H 1900 5650 60  0001 C CNN "Manufacturer"
+F 5 "RC1608J103CS" H 1900 5650 60  0001 C CNN "Part"
+F 6 "http://www.digikey.com/product-detail/en/RC1608J103CS/1276-5086-1-ND/3968058" H 1900 5650 60  0001 C CNN "Link"
+	1    1900 5650
+	1    0    0    -1  
+$EndComp
+Text Label 2400 5450 2    60   ~ 0
+ROW5
+Wire Wire Line
+	1150 5500 1250 5500
+Wire Wire Line
+	1550 5500 1750 5500
+Wire Wire Line
+	1650 5500 1650 5650
+Wire Wire Line
+	1650 5650 1750 5650
+Connection ~ 1650 5500
+$Comp
+L GND #PWR022
+U 1 1 52829033
+P 2250 5550
+F 0 "#PWR022" H 2250 5550 30  0001 C CNN
+F 1 "GND" H 2250 5480 30  0001 C CNN
+F 2 "" H 2250 5550 60  0000 C CNN
+F 3 "" H 2250 5550 60  0000 C CNN
+	1    2250 5550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2050 5650 2150 5650
+Wire Wire Line
+	2150 5650 2150 5550
+Wire Wire Line
+	2050 5550 2250 5550
+Connection ~ 2150 5550
+Wire Wire Line
+	2400 5450 2050 5450
+$Comp
+L R R?
+U 1 1 52829041
+P 1400 5500
+F 0 "R?" H 1300 5350 60  0000 C CNN
+F 1 "1kΩ" H 1500 5350 60  0000 C CNN
+F 2 "~" H 1400 5500 60  0001 C CNN
+F 3 "~" H 1400 5500 60  0001 C CNN
+F 4 "Samsung" H 1400 5500 60  0001 C CNN "Manufacturer"
+F 5 "RC1608J102CS" H 1400 5500 60  0001 C CNN "Part"
+F 6 "http://www.digikey.com/product-detail/en/RC1608J102CS/1276-5062-1-ND/3968034" H 1400 5500 60  0001 C CNN "Link"
+	1    1400 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L NPN-BJT_SOT Q?
+U 1 1 5282904A
+P 3750 5500
+F 0 "Q?" H 3850 5650 60  0000 C CNN
+F 1 "MMBT4401" H 3500 5650 60  0000 C CNN
+F 2 "~" H 3750 5500 60  0001 C CNN
+F 3 "~" H 3750 5500 60  0001 C CNN
+F 4 "ON Semiconductor" H 3750 5500 60  0001 C CNN "Manufacturer"
+F 5 "MMBT4401LT1G" H 3750 5500 60  0001 C CNN "Part"
+F 6 "http://www.digikey.com/product-detail/en/MMBT4401LT1G/MMBT4401LT1GOSCT-ND/1139819" H 3750 5500 60  0001 C CNN "Link"
+	1    3750 5500
+	1    0    0    -1  
+$EndComp
+Text HLabel 3000 5500 0    60   Input ~ 0
+ROW6
+$Comp
+L R R?
+U 1 1 52829054
+P 3750 5650
+F 0 "R?" H 3650 5550 60  0000 C CNN
+F 1 "10kΩ" H 3900 5550 60  0000 C CNN
+F 2 "~" H 3750 5650 60  0001 C CNN
+F 3 "~" H 3750 5650 60  0001 C CNN
+F 4 "Samsung" H 3750 5650 60  0001 C CNN "Manufacturer"
+F 5 "RC1608J103CS" H 3750 5650 60  0001 C CNN "Part"
+F 6 "http://www.digikey.com/product-detail/en/RC1608J103CS/1276-5086-1-ND/3968058" H 3750 5650 60  0001 C CNN "Link"
+	1    3750 5650
+	1    0    0    -1  
+$EndComp
+Text Label 4250 5450 2    60   ~ 0
+ROW6
+Wire Wire Line
+	3000 5500 3100 5500
+Wire Wire Line
+	3400 5500 3600 5500
+Wire Wire Line
+	3500 5500 3500 5650
+Wire Wire Line
+	3500 5650 3600 5650
+Connection ~ 3500 5500
+$Comp
+L GND #PWR023
+U 1 1 52829060
+P 4100 5550
+F 0 "#PWR023" H 4100 5550 30  0001 C CNN
+F 1 "GND" H 4100 5480 30  0001 C CNN
+F 2 "" H 4100 5550 60  0000 C CNN
+F 3 "" H 4100 5550 60  0000 C CNN
+	1    4100 5550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3900 5650 4000 5650
+Wire Wire Line
+	4000 5650 4000 5550
+Wire Wire Line
+	3900 5550 4100 5550
+Connection ~ 4000 5550
+Wire Wire Line
+	4250 5450 3900 5450
+$Comp
+L R R?
+U 1 1 5282906E
+P 3250 5500
+F 0 "R?" H 3150 5350 60  0000 C CNN
+F 1 "1kΩ" H 3350 5350 60  0000 C CNN
+F 2 "~" H 3250 5500 60  0001 C CNN
+F 3 "~" H 3250 5500 60  0001 C CNN
+F 4 "Samsung" H 3250 5500 60  0001 C CNN "Manufacturer"
+F 5 "RC1608J102CS" H 3250 5500 60  0001 C CNN "Part"
+F 6 "http://www.digikey.com/product-detail/en/RC1608J102CS/1276-5062-1-ND/3968034" H 3250 5500 60  0001 C CNN "Link"
+	1    3250 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L NPN-BJT_SOT Q?
+U 1 1 52829077
+P 5600 5500
+F 0 "Q?" H 5700 5650 60  0000 C CNN
+F 1 "MMBT4401" H 5350 5650 60  0000 C CNN
+F 2 "~" H 5600 5500 60  0001 C CNN
+F 3 "~" H 5600 5500 60  0001 C CNN
+F 4 "ON Semiconductor" H 5600 5500 60  0001 C CNN "Manufacturer"
+F 5 "MMBT4401LT1G" H 5600 5500 60  0001 C CNN "Part"
+F 6 "http://www.digikey.com/product-detail/en/MMBT4401LT1G/MMBT4401LT1GOSCT-ND/1139819" H 5600 5500 60  0001 C CNN "Link"
+	1    5600 5500
+	1    0    0    -1  
+$EndComp
+Text HLabel 4850 5500 0    60   Input ~ 0
+ROW7
+$Comp
+L R R?
+U 1 1 52829081
+P 5600 5650
+F 0 "R?" H 5500 5550 60  0000 C CNN
+F 1 "10kΩ" H 5750 5550 60  0000 C CNN
+F 2 "~" H 5600 5650 60  0001 C CNN
+F 3 "~" H 5600 5650 60  0001 C CNN
+F 4 "Samsung" H 5600 5650 60  0001 C CNN "Manufacturer"
+F 5 "RC1608J103CS" H 5600 5650 60  0001 C CNN "Part"
+F 6 "http://www.digikey.com/product-detail/en/RC1608J103CS/1276-5086-1-ND/3968058" H 5600 5650 60  0001 C CNN "Link"
+	1    5600 5650
+	1    0    0    -1  
+$EndComp
+Text Label 6100 5450 2    60   ~ 0
+ROW7
+Wire Wire Line
+	4850 5500 4950 5500
+Wire Wire Line
+	5250 5500 5450 5500
+Wire Wire Line
+	5350 5500 5350 5650
+Wire Wire Line
+	5350 5650 5450 5650
+Connection ~ 5350 5500
+$Comp
+L GND #PWR024
+U 1 1 5282908D
+P 5950 5550
+F 0 "#PWR024" H 5950 5550 30  0001 C CNN
+F 1 "GND" H 5950 5480 30  0001 C CNN
+F 2 "" H 5950 5550 60  0000 C CNN
+F 3 "" H 5950 5550 60  0000 C CNN
+	1    5950 5550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5750 5650 5850 5650
+Wire Wire Line
+	5850 5650 5850 5550
+Wire Wire Line
+	5750 5550 5950 5550
+Connection ~ 5850 5550
+Wire Wire Line
+	6100 5450 5750 5450
+$Comp
+L R R?
+U 1 1 5282909B
+P 5100 5500
+F 0 "R?" H 5000 5350 60  0000 C CNN
+F 1 "1kΩ" H 5200 5350 60  0000 C CNN
+F 2 "~" H 5100 5500 60  0001 C CNN
+F 3 "~" H 5100 5500 60  0001 C CNN
+F 4 "Samsung" H 5100 5500 60  0001 C CNN "Manufacturer"
+F 5 "RC1608J102CS" H 5100 5500 60  0001 C CNN "Part"
+F 6 "http://www.digikey.com/product-detail/en/RC1608J102CS/1276-5062-1-ND/3968034" H 5100 5500 60  0001 C CNN "Link"
+	1    5100 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L PNP-BJT_SOT Q?
+U 1 1 52829131
+P 3100 6600
+F 0 "Q?" H 3250 6750 60  0000 C CNN
+F 1 "MMBT4403" H 2900 6750 60  0000 C CNN
+F 2 "~" H 3100 6600 60  0001 C CNN
+F 3 "~" H 3100 6600 60  0001 C CNN
+F 4 "ON Semiconductor" H 3100 6600 60  0001 C CNN "Manufacturer"
+F 5 "MMBT4403LT3G" H 3100 6600 60  0001 C CNN "Part"
+F 6 "http://www.digikey.com/product-detail/en/MMBT4403LT3G/MMBT4403LT3GOSCT-ND/2705124" H 3100 6600 60  0001 C CNN "Link"
+	1    3100 6600
+	-1   0    0    1   
+$EndComp
+Text HLabel 3850 6600 2    60   Input ~ 0
+COL1
+$Comp
+L R R?
+U 1 1 5282913B
+P 3600 6600
+F 0 "R?" H 3500 6700 60  0000 C CNN
+F 1 "1kΩ" H 3750 6700 60  0000 C CNN
+F 2 "~" H 3600 6600 60  0001 C CNN
+F 3 "~" H 3600 6600 60  0001 C CNN
+F 4 "Samsung" H 3600 6600 60  0001 C CNN "Manufacturer"
+F 5 "RC1608J102CS" H 3600 6600 60  0001 C CNN "Part"
+F 6 "http://www.digikey.com/product-detail/en/RC1608J102CS/1276-5062-1-ND/3968034" H 3600 6600 60  0001 C CNN "Link"
+	1    3600 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 52829144
+P 3100 6450
+F 0 "R?" H 3000 6550 60  0000 C CNN
+F 1 "10kΩ" H 3250 6550 60  0000 C CNN
+F 2 "~" H 3100 6450 60  0001 C CNN
+F 3 "~" H 3100 6450 60  0001 C CNN
+F 4 "Samsung" H 3100 6450 60  0001 C CNN "Manufacturer"
+F 5 "RC1608J103CS" H 3100 6450 60  0001 C CNN "Part"
+F 6 "http://www.digikey.com/product-detail/en/RC1608J103CS/1276-5086-1-ND/3968058" H 3100 6450 60  0001 C CNN "Link"
+	1    3100 6450
+	1    0    0    -1  
+$EndComp
+$Comp
+L VCC #PWR025
+U 1 1 5282914A
+P 2750 6450
+F 0 "#PWR025" H 2750 6550 30  0001 C CNN
+F 1 "VCC" H 2750 6550 30  0000 C CNN
+F 2 "" H 2750 6450 60  0000 C CNN
+F 3 "" H 2750 6450 60  0000 C CNN
+	1    2750 6450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2850 6550 2850 6450
+Wire Wire Line
+	2750 6450 2950 6450
+Wire Wire Line
+	3250 6450 3350 6450
+Wire Wire Line
+	3350 6450 3350 6600
+Wire Wire Line
+	3250 6600 3450 6600
+Connection ~ 3350 6600
+Wire Wire Line
+	3850 6600 3750 6600
+Text Label 2600 6650 0    60   ~ 0
+COL1
+Wire Wire Line
+	2950 6550 2850 6550
+Connection ~ 2850 6450
+Wire Wire Line
+	2600 6650 2950 6650
+$Comp
+L PNP-BJT_SOT Q?
+U 1 1 5282915E
+P 4900 6600
+F 0 "Q?" H 5050 6750 60  0000 C CNN
+F 1 "MMBT4403" H 4700 6750 60  0000 C CNN
+F 2 "~" H 4900 6600 60  0001 C CNN
+F 3 "~" H 4900 6600 60  0001 C CNN
+F 4 "ON Semiconductor" H 4900 6600 60  0001 C CNN "Manufacturer"
+F 5 "MMBT4403LT3G" H 4900 6600 60  0001 C CNN "Part"
+F 6 "http://www.digikey.com/product-detail/en/MMBT4403LT3G/MMBT4403LT3GOSCT-ND/2705124" H 4900 6600 60  0001 C CNN "Link"
+	1    4900 6600
+	-1   0    0    1   
+$EndComp
+Text HLabel 5650 6600 2    60   Input ~ 0
+COL2
+$Comp
+L R R?
+U 1 1 52829168
+P 5400 6600
+F 0 "R?" H 5300 6700 60  0000 C CNN
+F 1 "1kΩ" H 5550 6700 60  0000 C CNN
+F 2 "~" H 5400 6600 60  0001 C CNN
+F 3 "~" H 5400 6600 60  0001 C CNN
+F 4 "Samsung" H 5400 6600 60  0001 C CNN "Manufacturer"
+F 5 "RC1608J102CS" H 5400 6600 60  0001 C CNN "Part"
+F 6 "http://www.digikey.com/product-detail/en/RC1608J102CS/1276-5062-1-ND/3968034" H 5400 6600 60  0001 C CNN "Link"
+	1    5400 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 52829171
+P 4900 6450
+F 0 "R?" H 4800 6550 60  0000 C CNN
+F 1 "10kΩ" H 5050 6550 60  0000 C CNN
+F 2 "~" H 4900 6450 60  0001 C CNN
+F 3 "~" H 4900 6450 60  0001 C CNN
+F 4 "Samsung" H 4900 6450 60  0001 C CNN "Manufacturer"
+F 5 "RC1608J103CS" H 4900 6450 60  0001 C CNN "Part"
+F 6 "http://www.digikey.com/product-detail/en/RC1608J103CS/1276-5086-1-ND/3968058" H 4900 6450 60  0001 C CNN "Link"
+	1    4900 6450
+	1    0    0    -1  
+$EndComp
+$Comp
+L VCC #PWR026
+U 1 1 52829177
+P 4550 6450
+F 0 "#PWR026" H 4550 6550 30  0001 C CNN
+F 1 "VCC" H 4550 6550 30  0000 C CNN
+F 2 "" H 4550 6450 60  0000 C CNN
+F 3 "" H 4550 6450 60  0000 C CNN
+	1    4550 6450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4650 6550 4650 6450
+Wire Wire Line
+	4550 6450 4750 6450
+Wire Wire Line
+	5050 6450 5150 6450
+Wire Wire Line
+	5150 6450 5150 6600
+Wire Wire Line
+	5050 6600 5250 6600
+Connection ~ 5150 6600
+Wire Wire Line
+	5650 6600 5550 6600
+Text Label 4400 6650 0    60   ~ 0
+COL2
+Wire Wire Line
+	4750 6550 4650 6550
+Connection ~ 4650 6450
+Wire Wire Line
+	4400 6650 4750 6650
+$Comp
+L PNP-BJT_SOT Q?
+U 1 1 5282918B
+P 6700 6600
+F 0 "Q?" H 6850 6750 60  0000 C CNN
+F 1 "MMBT4403" H 6500 6750 60  0000 C CNN
+F 2 "~" H 6700 6600 60  0001 C CNN
+F 3 "~" H 6700 6600 60  0001 C CNN
+F 4 "ON Semiconductor" H 6700 6600 60  0001 C CNN "Manufacturer"
+F 5 "MMBT4403LT3G" H 6700 6600 60  0001 C CNN "Part"
+F 6 "http://www.digikey.com/product-detail/en/MMBT4403LT3G/MMBT4403LT3GOSCT-ND/2705124" H 6700 6600 60  0001 C CNN "Link"
+	1    6700 6600
+	-1   0    0    1   
+$EndComp
+Text HLabel 7450 6600 2    60   Input ~ 0
+COL3
+$Comp
+L R R?
+U 1 1 52829195
+P 7200 6600
+F 0 "R?" H 7100 6700 60  0000 C CNN
+F 1 "1kΩ" H 7350 6700 60  0000 C CNN
+F 2 "~" H 7200 6600 60  0001 C CNN
+F 3 "~" H 7200 6600 60  0001 C CNN
+F 4 "Samsung" H 7200 6600 60  0001 C CNN "Manufacturer"
+F 5 "RC1608J102CS" H 7200 6600 60  0001 C CNN "Part"
+F 6 "http://www.digikey.com/product-detail/en/RC1608J102CS/1276-5062-1-ND/3968034" H 7200 6600 60  0001 C CNN "Link"
+	1    7200 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 5282919E
+P 6700 6450
+F 0 "R?" H 6600 6550 60  0000 C CNN
+F 1 "10kΩ" H 6850 6550 60  0000 C CNN
+F 2 "~" H 6700 6450 60  0001 C CNN
+F 3 "~" H 6700 6450 60  0001 C CNN
+F 4 "Samsung" H 6700 6450 60  0001 C CNN "Manufacturer"
+F 5 "RC1608J103CS" H 6700 6450 60  0001 C CNN "Part"
+F 6 "http://www.digikey.com/product-detail/en/RC1608J103CS/1276-5086-1-ND/3968058" H 6700 6450 60  0001 C CNN "Link"
+	1    6700 6450
+	1    0    0    -1  
+$EndComp
+$Comp
+L VCC #PWR027
+U 1 1 528291A4
+P 6350 6450
+F 0 "#PWR027" H 6350 6550 30  0001 C CNN
+F 1 "VCC" H 6350 6550 30  0000 C CNN
+F 2 "" H 6350 6450 60  0000 C CNN
+F 3 "" H 6350 6450 60  0000 C CNN
+	1    6350 6450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6450 6550 6450 6450
+Wire Wire Line
+	6350 6450 6550 6450
+Wire Wire Line
+	6850 6450 6950 6450
+Wire Wire Line
+	6950 6450 6950 6600
+Wire Wire Line
+	6850 6600 7050 6600
+Connection ~ 6950 6600
+Wire Wire Line
+	7450 6600 7350 6600
+Text Label 6200 6650 0    60   ~ 0
+COL3
+Wire Wire Line
+	6550 6550 6450 6550
+Connection ~ 6450 6450
+Wire Wire Line
+	6200 6650 6550 6650
+$Comp
+L PNP-BJT_SOT Q?
+U 1 1 5282914A
+P 8500 6600
+F 0 "Q?" H 8650 6750 60  0000 C CNN
+F 1 "MMBT4403" H 8300 6750 60  0000 C CNN
+F 2 "~" H 8500 6600 60  0001 C CNN
+F 3 "~" H 8500 6600 60  0001 C CNN
+F 4 "ON Semiconductor" H 8500 6600 60  0001 C CNN "Manufacturer"
+F 5 "MMBT4403LT3G" H 8500 6600 60  0001 C CNN "Part"
+F 6 "http://www.digikey.com/product-detail/en/MMBT4403LT3G/MMBT4403LT3GOSCT-ND/2705124" H 8500 6600 60  0001 C CNN "Link"
+	1    8500 6600
+	-1   0    0    1   
+$EndComp
+Text HLabel 9250 6600 2    60   Input ~ 0
+COL4
+$Comp
+L R R?
+U 1 1 52829154
+P 9000 6600
+F 0 "R?" H 8900 6700 60  0000 C CNN
+F 1 "1kΩ" H 9150 6700 60  0000 C CNN
+F 2 "~" H 9000 6600 60  0001 C CNN
+F 3 "~" H 9000 6600 60  0001 C CNN
+F 4 "Samsung" H 9000 6600 60  0001 C CNN "Manufacturer"
+F 5 "RC1608J102CS" H 9000 6600 60  0001 C CNN "Part"
+F 6 "http://www.digikey.com/product-detail/en/RC1608J102CS/1276-5062-1-ND/3968034" H 9000 6600 60  0001 C CNN "Link"
+	1    9000 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 5282915D
+P 8500 6450
+F 0 "R?" H 8400 6550 60  0000 C CNN
+F 1 "10kΩ" H 8650 6550 60  0000 C CNN
+F 2 "~" H 8500 6450 60  0001 C CNN
+F 3 "~" H 8500 6450 60  0001 C CNN
+F 4 "Samsung" H 8500 6450 60  0001 C CNN "Manufacturer"
+F 5 "RC1608J103CS" H 8500 6450 60  0001 C CNN "Part"
+F 6 "http://www.digikey.com/product-detail/en/RC1608J103CS/1276-5086-1-ND/3968058" H 8500 6450 60  0001 C CNN "Link"
+	1    8500 6450
+	1    0    0    -1  
+$EndComp
+$Comp
+L VCC #PWR028
+U 1 1 52829163
+P 8150 6450
+F 0 "#PWR028" H 8150 6550 30  0001 C CNN
+F 1 "VCC" H 8150 6550 30  0000 C CNN
+F 2 "" H 8150 6450 60  0000 C CNN
+F 3 "" H 8150 6450 60  0000 C CNN
+	1    8150 6450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8250 6550 8250 6450
+Wire Wire Line
+	8150 6450 8350 6450
+Wire Wire Line
+	8650 6450 8750 6450
+Wire Wire Line
+	8750 6450 8750 6600
+Wire Wire Line
+	8650 6600 8850 6600
+Connection ~ 8750 6600
+Wire Wire Line
+	9250 6600 9150 6600
+Text Label 8000 6650 0    60   ~ 0
+COL4
+Wire Wire Line
+	8350 6550 8250 6550
+Connection ~ 8250 6450
+Wire Wire Line
+	8000 6650 8350 6650
+$Comp
+L PNP-BJT_SOT Q?
+U 1 1 52829177
+P 1300 7300
+F 0 "Q?" H 1450 7450 60  0000 C CNN
+F 1 "MMBT4403" H 1100 7450 60  0000 C CNN
+F 2 "~" H 1300 7300 60  0001 C CNN
+F 3 "~" H 1300 7300 60  0001 C CNN
+F 4 "ON Semiconductor" H 1300 7300 60  0001 C CNN "Manufacturer"
+F 5 "MMBT4403LT3G" H 1300 7300 60  0001 C CNN "Part"
+F 6 "http://www.digikey.com/product-detail/en/MMBT4403LT3G/MMBT4403LT3GOSCT-ND/2705124" H 1300 7300 60  0001 C CNN "Link"
+	1    1300 7300
+	-1   0    0    1   
+$EndComp
+Text HLabel 2050 7300 2    60   Input ~ 0
+COL5
+$Comp
+L R R?
+U 1 1 52829181
+P 1800 7300
+F 0 "R?" H 1700 7400 60  0000 C CNN
+F 1 "1kΩ" H 1950 7400 60  0000 C CNN
+F 2 "~" H 1800 7300 60  0001 C CNN
+F 3 "~" H 1800 7300 60  0001 C CNN
+F 4 "Samsung" H 1800 7300 60  0001 C CNN "Manufacturer"
+F 5 "RC1608J102CS" H 1800 7300 60  0001 C CNN "Part"
+F 6 "http://www.digikey.com/product-detail/en/RC1608J102CS/1276-5062-1-ND/3968034" H 1800 7300 60  0001 C CNN "Link"
+	1    1800 7300
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 5282918A
+P 1300 7150
+F 0 "R?" H 1200 7250 60  0000 C CNN
+F 1 "10kΩ" H 1450 7250 60  0000 C CNN
+F 2 "~" H 1300 7150 60  0001 C CNN
+F 3 "~" H 1300 7150 60  0001 C CNN
+F 4 "Samsung" H 1300 7150 60  0001 C CNN "Manufacturer"
+F 5 "RC1608J103CS" H 1300 7150 60  0001 C CNN "Part"
+F 6 "http://www.digikey.com/product-detail/en/RC1608J103CS/1276-5086-1-ND/3968058" H 1300 7150 60  0001 C CNN "Link"
+	1    1300 7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L VCC #PWR029
+U 1 1 52829190
+P 950 7150
+F 0 "#PWR029" H 950 7250 30  0001 C CNN
+F 1 "VCC" H 950 7250 30  0000 C CNN
+F 2 "" H 950 7150 60  0000 C CNN
+F 3 "" H 950 7150 60  0000 C CNN
+	1    950  7150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1050 7250 1050 7150
+Wire Wire Line
+	950  7150 1150 7150
+Wire Wire Line
+	1450 7150 1550 7150
+Wire Wire Line
+	1550 7150 1550 7300
+Wire Wire Line
+	1450 7300 1650 7300
+Connection ~ 1550 7300
+Wire Wire Line
+	2050 7300 1950 7300
+Text Label 800  7350 0    60   ~ 0
+COL5
+Wire Wire Line
+	1150 7250 1050 7250
+Connection ~ 1050 7150
+Wire Wire Line
+	800  7350 1150 7350
+$Comp
+L PNP-BJT_SOT Q?
+U 1 1 528291A4
+P 3100 7300
+F 0 "Q?" H 3250 7450 60  0000 C CNN
+F 1 "MMBT4403" H 2900 7450 60  0000 C CNN
+F 2 "~" H 3100 7300 60  0001 C CNN
+F 3 "~" H 3100 7300 60  0001 C CNN
+F 4 "ON Semiconductor" H 3100 7300 60  0001 C CNN "Manufacturer"
+F 5 "MMBT4403LT3G" H 3100 7300 60  0001 C CNN "Part"
+F 6 "http://www.digikey.com/product-detail/en/MMBT4403LT3G/MMBT4403LT3GOSCT-ND/2705124" H 3100 7300 60  0001 C CNN "Link"
+	1    3100 7300
+	-1   0    0    1   
+$EndComp
+Text HLabel 3850 7300 2    60   Input ~ 0
+COL6
+$Comp
+L R R?
+U 1 1 528291AE
+P 3600 7300
+F 0 "R?" H 3500 7400 60  0000 C CNN
+F 1 "1kΩ" H 3750 7400 60  0000 C CNN
+F 2 "~" H 3600 7300 60  0001 C CNN
+F 3 "~" H 3600 7300 60  0001 C CNN
+F 4 "Samsung" H 3600 7300 60  0001 C CNN "Manufacturer"
+F 5 "RC1608J102CS" H 3600 7300 60  0001 C CNN "Part"
+F 6 "http://www.digikey.com/product-detail/en/RC1608J102CS/1276-5062-1-ND/3968034" H 3600 7300 60  0001 C CNN "Link"
+	1    3600 7300
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 528291B7
+P 3100 7150
+F 0 "R?" H 3000 7250 60  0000 C CNN
+F 1 "10kΩ" H 3250 7250 60  0000 C CNN
+F 2 "~" H 3100 7150 60  0001 C CNN
+F 3 "~" H 3100 7150 60  0001 C CNN
+F 4 "Samsung" H 3100 7150 60  0001 C CNN "Manufacturer"
+F 5 "RC1608J103CS" H 3100 7150 60  0001 C CNN "Part"
+F 6 "http://www.digikey.com/product-detail/en/RC1608J103CS/1276-5086-1-ND/3968058" H 3100 7150 60  0001 C CNN "Link"
+	1    3100 7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L VCC #PWR030
+U 1 1 528291BD
+P 2750 7150
+F 0 "#PWR030" H 2750 7250 30  0001 C CNN
+F 1 "VCC" H 2750 7250 30  0000 C CNN
+F 2 "" H 2750 7150 60  0000 C CNN
+F 3 "" H 2750 7150 60  0000 C CNN
+	1    2750 7150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2850 7250 2850 7150
+Wire Wire Line
+	2750 7150 2950 7150
+Wire Wire Line
+	3250 7150 3350 7150
+Wire Wire Line
+	3350 7150 3350 7300
+Wire Wire Line
+	3250 7300 3450 7300
+Connection ~ 3350 7300
+Wire Wire Line
+	3850 7300 3750 7300
+Text Label 2600 7350 0    60   ~ 0
+COL6
+Wire Wire Line
+	2950 7250 2850 7250
+Connection ~ 2850 7150
+Wire Wire Line
+	2600 7350 2950 7350
+Text Notes 750  6150 0    100  ~ 0
+column control
+$Comp
+L LED LED?
+U 1 1 52829382
+P 1650 1350
+F 0 "LED?" H 1650 1150 60  0000 C CNN
+F 1 "LED" H 1650 1250 60  0000 C CNN
+F 2 "~" H 1650 1350 60  0001 C CNN
+F 3 "~" H 1650 1350 60  0001 C CNN
+	1    1650 1350
+	-1   0    0    1   
+$EndComp
+Text Label 750  1350 0    60   ~ 0
+ROW0
+Wire Wire Line
+	750  1350 1100 1350
+Text Label 1550 950  0    60   ~ 0
+COL0
+Wire Wire Line
+	1400 1350 1500 1350
+Wire Wire Line
+	1900 1350 1800 1350
+$Comp
+L R R?
+U 1 1 52829588
+P 1250 1750
+F 0 "R?" H 1250 1550 60  0000 C CNN
+F 1 "68Ω" H 1250 1650 60  0000 C CNN
+F 2 "~" H 1250 1750 60  0001 C CNN
+F 3 "~" H 1250 1750 60  0001 C CNN
+F 4 "Samsung" H 1250 1750 60  0001 C CNN "Manufacturer"
+F 5 "RC1608J680CS" H 1250 1750 60  0001 C CNN "Part"
+F 6 "http://www.digikey.com/product-detail/en/RC1608J680CS/1276-5034-1-ND/3968006" H 1250 1750 60  0001 C CNN "Link"
+	1    1250 1750
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED LED?
+U 1 1 5282958E
+P 1650 1750
+F 0 "LED?" H 1650 1550 60  0000 C CNN
+F 1 "LED" H 1650 1650 60  0000 C CNN
+F 2 "~" H 1650 1750 60  0001 C CNN
+F 3 "~" H 1650 1750 60  0001 C CNN
+	1    1650 1750
+	-1   0    0    1   
+$EndComp
+Text Label 750  1750 0    60   ~ 0
+ROW1
+Wire Wire Line
+	750  1750 1100 1750
+Wire Wire Line
+	1400 1750 1500 1750
+Wire Wire Line
+	1900 1750 1800 1750
+Connection ~ 1900 1350
+$Comp
+L R R?
+U 1 1 52829653
+P 1250 2150
+F 0 "R?" H 1250 1950 60  0000 C CNN
+F 1 "68Ω" H 1250 2050 60  0000 C CNN
+F 2 "~" H 1250 2150 60  0001 C CNN
+F 3 "~" H 1250 2150 60  0001 C CNN
+F 4 "Samsung" H 1250 2150 60  0001 C CNN "Manufacturer"
+F 5 "RC1608J680CS" H 1250 2150 60  0001 C CNN "Part"
+F 6 "http://www.digikey.com/product-detail/en/RC1608J680CS/1276-5034-1-ND/3968006" H 1250 2150 60  0001 C CNN "Link"
+	1    1250 2150
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED LED?
+U 1 1 52829659
+P 1650 2150
+F 0 "LED?" H 1650 1950 60  0000 C CNN
+F 1 "LED" H 1650 2050 60  0000 C CNN
+F 2 "~" H 1650 2150 60  0001 C CNN
+F 3 "~" H 1650 2150 60  0001 C CNN
+	1    1650 2150
+	-1   0    0    1   
+$EndComp
+Text Label 750  2150 0    60   ~ 0
+ROW2
+Wire Wire Line
+	750  2150 1100 2150
+Wire Wire Line
+	1400 2150 1500 2150
+$Comp
+L R R?
+U 1 1 52829665
+P 1250 2550
+F 0 "R?" H 1250 2350 60  0000 C CNN
+F 1 "68Ω" H 1250 2450 60  0000 C CNN
+F 2 "~" H 1250 2550 60  0001 C CNN
+F 3 "~" H 1250 2550 60  0001 C CNN
+F 4 "Samsung" H 1250 2550 60  0001 C CNN "Manufacturer"
+F 5 "RC1608J680CS" H 1250 2550 60  0001 C CNN "Part"
+F 6 "http://www.digikey.com/product-detail/en/RC1608J680CS/1276-5034-1-ND/3968006" H 1250 2550 60  0001 C CNN "Link"
+	1    1250 2550
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED LED?
+U 1 1 5282966B
+P 1650 2550
+F 0 "LED?" H 1650 2350 60  0000 C CNN
+F 1 "LED" H 1650 2450 60  0000 C CNN
+F 2 "~" H 1650 2550 60  0001 C CNN
+F 3 "~" H 1650 2550 60  0001 C CNN
+	1    1650 2550
+	-1   0    0    1   
+$EndComp
+Text Label 750  2550 0    60   ~ 0
+ROW3
+Wire Wire Line
+	750  2550 1100 2550
+Wire Wire Line
+	1400 2550 1500 2550
+Wire Wire Line
+	1900 2150 1800 2150
+Connection ~ 1900 1750
+Wire Wire Line
+	1900 2550 1800 2550
+Connection ~ 1900 2150
+Wire Wire Line
+	1900 950  1550 950 
+$Comp
+L R R?
+U 1 1 52829933
+P 1250 2950
+F 0 "R?" H 1250 2750 60  0000 C CNN
+F 1 "68Ω" H 1250 2850 60  0000 C CNN
+F 2 "~" H 1250 2950 60  0001 C CNN
+F 3 "~" H 1250 2950 60  0001 C CNN
+F 4 "Samsung" H 1250 2950 60  0001 C CNN "Manufacturer"
+F 5 "RC1608J680CS" H 1250 2950 60  0001 C CNN "Part"
+F 6 "http://www.digikey.com/product-detail/en/RC1608J680CS/1276-5034-1-ND/3968006" H 1250 2950 60  0001 C CNN "Link"
+	1    1250 2950
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED LED?
+U 1 1 52829939
+P 1650 2950
+F 0 "LED?" H 1650 2750 60  0000 C CNN
+F 1 "LED" H 1650 2850 60  0000 C CNN
+F 2 "~" H 1650 2950 60  0001 C CNN
+F 3 "~" H 1650 2950 60  0001 C CNN
+	1    1650 2950
+	-1   0    0    1   
+$EndComp
+Text Label 750  2950 0    60   ~ 0
+ROW4
+Wire Wire Line
+	750  2950 1100 2950
+Wire Wire Line
+	1400 2950 1500 2950
+Wire Wire Line
+	1900 2950 1800 2950
+$Comp
+L R R?
+U 1 1 52829947
+P 1250 3350
+F 0 "R?" H 1250 3150 60  0000 C CNN
+F 1 "68Ω" H 1250 3250 60  0000 C CNN
+F 2 "~" H 1250 3350 60  0001 C CNN
+F 3 "~" H 1250 3350 60  0001 C CNN
+F 4 "Samsung" H 1250 3350 60  0001 C CNN "Manufacturer"
+F 5 "RC1608J680CS" H 1250 3350 60  0001 C CNN "Part"
+F 6 "http://www.digikey.com/product-detail/en/RC1608J680CS/1276-5034-1-ND/3968006" H 1250 3350 60  0001 C CNN "Link"
+	1    1250 3350
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED LED?
+U 1 1 5282994D
+P 1650 3350
+F 0 "LED?" H 1650 3150 60  0000 C CNN
+F 1 "LED" H 1650 3250 60  0000 C CNN
+F 2 "~" H 1650 3350 60  0001 C CNN
+F 3 "~" H 1650 3350 60  0001 C CNN
+	1    1650 3350
+	-1   0    0    1   
+$EndComp
+Text Label 750  3350 0    60   ~ 0
+ROW5
+Wire Wire Line
+	750  3350 1100 3350
+Wire Wire Line
+	1400 3350 1500 3350
+Wire Wire Line
+	1900 3350 1800 3350
+Connection ~ 1900 2950
+$Comp
+L R R?
+U 1 1 5282995B
+P 1250 3750
+F 0 "R?" H 1250 3550 60  0000 C CNN
+F 1 "68Ω" H 1250 3650 60  0000 C CNN
+F 2 "~" H 1250 3750 60  0001 C CNN
+F 3 "~" H 1250 3750 60  0001 C CNN
+F 4 "Samsung" H 1250 3750 60  0001 C CNN "Manufacturer"
+F 5 "RC1608J680CS" H 1250 3750 60  0001 C CNN "Part"
+F 6 "http://www.digikey.com/product-detail/en/RC1608J680CS/1276-5034-1-ND/3968006" H 1250 3750 60  0001 C CNN "Link"
+	1    1250 3750
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED LED?
+U 1 1 52829961
+P 1650 3750
+F 0 "LED?" H 1650 3550 60  0000 C CNN
+F 1 "LED" H 1650 3650 60  0000 C CNN
+F 2 "~" H 1650 3750 60  0001 C CNN
+F 3 "~" H 1650 3750 60  0001 C CNN
+	1    1650 3750
+	-1   0    0    1   
+$EndComp
+Text Label 750  3750 0    60   ~ 0
+ROW6
+Wire Wire Line
+	750  3750 1100 3750
+Wire Wire Line
+	1400 3750 1500 3750
+$Comp
+L R R?
+U 1 1 5282996D
+P 1250 4150
+F 0 "R?" H 1250 3950 60  0000 C CNN
+F 1 "68Ω" H 1250 4050 60  0000 C CNN
+F 2 "~" H 1250 4150 60  0001 C CNN
+F 3 "~" H 1250 4150 60  0001 C CNN
+F 4 "Samsung" H 1250 4150 60  0001 C CNN "Manufacturer"
+F 5 "RC1608J680CS" H 1250 4150 60  0001 C CNN "Part"
+F 6 "http://www.digikey.com/product-detail/en/RC1608J680CS/1276-5034-1-ND/3968006" H 1250 4150 60  0001 C CNN "Link"
+	1    1250 4150
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED LED?
+U 1 1 52829973
+P 1650 4150
+F 0 "LED?" H 1650 3950 60  0000 C CNN
+F 1 "LED" H 1650 4050 60  0000 C CNN
+F 2 "~" H 1650 4150 60  0001 C CNN
+F 3 "~" H 1650 4150 60  0001 C CNN
+	1    1650 4150
+	-1   0    0    1   
+$EndComp
+Text Label 750  4150 0    60   ~ 0
+ROW7
+Wire Wire Line
+	750  4150 1100 4150
+Wire Wire Line
+	1400 4150 1500 4150
+Wire Wire Line
+	1900 3750 1800 3750
+Connection ~ 1900 3350
+Wire Wire Line
+	1900 4150 1800 4150
+Connection ~ 1900 3750
+Connection ~ 1900 2550
+Wire Wire Line
+	1900 4150 1900 950 
+$Comp
+L R R?
+U 1 1 52829A4C
+P 2650 1350
+F 0 "R?" H 2650 1150 60  0000 C CNN
+F 1 "68Ω" H 2650 1250 60  0000 C CNN
+F 2 "~" H 2650 1350 60  0001 C CNN
+F 3 "~" H 2650 1350 60  0001 C CNN
+F 4 "Samsung" H 2650 1350 60  0001 C CNN "Manufacturer"
+F 5 "RC1608J680CS" H 2650 1350 60  0001 C CNN "Part"
+F 6 "http://www.digikey.com/product-detail/en/RC1608J680CS/1276-5034-1-ND/3968006" H 2650 1350 60  0001 C CNN "Link"
+	1    2650 1350
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED LED?
+U 1 1 52829A52
+P 3050 1350
+F 0 "LED?" H 3050 1150 60  0000 C CNN
+F 1 "LED" H 3050 1250 60  0000 C CNN
+F 2 "~" H 3050 1350 60  0001 C CNN
+F 3 "~" H 3050 1350 60  0001 C CNN
+	1    3050 1350
+	-1   0    0    1   
+$EndComp
+Text Label 2150 1350 0    60   ~ 0
+ROW0
+Wire Wire Line
+	2150 1350 2500 1350
+Text Label 2950 950  0    60   ~ 0
+COL1
+Wire Wire Line
+	2800 1350 2900 1350
+Wire Wire Line
+	3300 1350 3200 1350
+$Comp
+L R R?
+U 1 1 52829A60
+P 2650 1750
+F 0 "R?" H 2650 1550 60  0000 C CNN
+F 1 "68Ω" H 2650 1650 60  0000 C CNN
+F 2 "~" H 2650 1750 60  0001 C CNN
+F 3 "~" H 2650 1750 60  0001 C CNN
+F 4 "Samsung" H 2650 1750 60  0001 C CNN "Manufacturer"
+F 5 "RC1608J680CS" H 2650 1750 60  0001 C CNN "Part"
+F 6 "http://www.digikey.com/product-detail/en/RC1608J680CS/1276-5034-1-ND/3968006" H 2650 1750 60  0001 C CNN "Link"
+	1    2650 1750
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED LED?
+U 1 1 52829A66
+P 3050 1750
+F 0 "LED?" H 3050 1550 60  0000 C CNN
+F 1 "LED" H 3050 1650 60  0000 C CNN
+F 2 "~" H 3050 1750 60  0001 C CNN
+F 3 "~" H 3050 1750 60  0001 C CNN
+	1    3050 1750
+	-1   0    0    1   
+$EndComp
+Text Label 2150 1750 0    60   ~ 0
+ROW1
+Wire Wire Line
+	2150 1750 2500 1750
+Wire Wire Line
+	2800 1750 2900 1750
+Wire Wire Line
+	3300 1750 3200 1750
+Connection ~ 3300 1350
+$Comp
+L R R?
+U 1 1 52829A74
+P 2650 2150
+F 0 "R?" H 2650 1950 60  0000 C CNN
+F 1 "68Ω" H 2650 2050 60  0000 C CNN
+F 2 "~" H 2650 2150 60  0001 C CNN
+F 3 "~" H 2650 2150 60  0001 C CNN
+F 4 "Samsung" H 2650 2150 60  0001 C CNN "Manufacturer"
+F 5 "RC1608J680CS" H 2650 2150 60  0001 C CNN "Part"
+F 6 "http://www.digikey.com/product-detail/en/RC1608J680CS/1276-5034-1-ND/3968006" H 2650 2150 60  0001 C CNN "Link"
+	1    2650 2150
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED LED?
+U 1 1 52829A7A
+P 3050 2150
+F 0 "LED?" H 3050 1950 60  0000 C CNN
+F 1 "LED" H 3050 2050 60  0000 C CNN
+F 2 "~" H 3050 2150 60  0001 C CNN
+F 3 "~" H 3050 2150 60  0001 C CNN
+	1    3050 2150
+	-1   0    0    1   
+$EndComp
+Text Label 2150 2150 0    60   ~ 0
+ROW2
+Wire Wire Line
+	2150 2150 2500 2150
+Wire Wire Line
+	2800 2150 2900 2150
+$Comp
+L R R?
+U 1 1 52829A86
+P 2650 2550
+F 0 "R?" H 2650 2350 60  0000 C CNN
+F 1 "68Ω" H 2650 2450 60  0000 C CNN
+F 2 "~" H 2650 2550 60  0001 C CNN
+F 3 "~" H 2650 2550 60  0001 C CNN
+F 4 "Samsung" H 2650 2550 60  0001 C CNN "Manufacturer"
+F 5 "RC1608J680CS" H 2650 2550 60  0001 C CNN "Part"
+F 6 "http://www.digikey.com/product-detail/en/RC1608J680CS/1276-5034-1-ND/3968006" H 2650 2550 60  0001 C CNN "Link"
+	1    2650 2550
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED LED?
+U 1 1 52829A8C
+P 3050 2550
+F 0 "LED?" H 3050 2350 60  0000 C CNN
+F 1 "LED" H 3050 2450 60  0000 C CNN
+F 2 "~" H 3050 2550 60  0001 C CNN
+F 3 "~" H 3050 2550 60  0001 C CNN
+	1    3050 2550
+	-1   0    0    1   
+$EndComp
+Text Label 2150 2550 0    60   ~ 0
+ROW3
+Wire Wire Line
+	2150 2550 2500 2550
+Wire Wire Line
+	2800 2550 2900 2550
+Wire Wire Line
+	3300 2150 3200 2150
+Connection ~ 3300 1750
+Wire Wire Line
+	3300 2550 3200 2550
+Connection ~ 3300 2150
+Wire Wire Line
+	3300 950  2950 950 
+$Comp
+L R R?
+U 1 1 52829A9D
+P 2650 2950
+F 0 "R?" H 2650 2750 60  0000 C CNN
+F 1 "68Ω" H 2650 2850 60  0000 C CNN
+F 2 "~" H 2650 2950 60  0001 C CNN
+F 3 "~" H 2650 2950 60  0001 C CNN
+F 4 "Samsung" H 2650 2950 60  0001 C CNN "Manufacturer"
+F 5 "RC1608J680CS" H 2650 2950 60  0001 C CNN "Part"
+F 6 "http://www.digikey.com/product-detail/en/RC1608J680CS/1276-5034-1-ND/3968006" H 2650 2950 60  0001 C CNN "Link"
+	1    2650 2950
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED LED?
+U 1 1 52829AA3
+P 3050 2950
+F 0 "LED?" H 3050 2750 60  0000 C CNN
+F 1 "LED" H 3050 2850 60  0000 C CNN
+F 2 "~" H 3050 2950 60  0001 C CNN
+F 3 "~" H 3050 2950 60  0001 C CNN
+	1    3050 2950
+	-1   0    0    1   
+$EndComp
+Text Label 2150 2950 0    60   ~ 0
+ROW4
+Wire Wire Line
+	2150 2950 2500 2950
+Wire Wire Line
+	2800 2950 2900 2950
+Wire Wire Line
+	3300 2950 3200 2950
+$Comp
+L R R?
+U 1 1 52829AB0
+P 2650 3350
+F 0 "R?" H 2650 3150 60  0000 C CNN
+F 1 "68Ω" H 2650 3250 60  0000 C CNN
+F 2 "~" H 2650 3350 60  0001 C CNN
+F 3 "~" H 2650 3350 60  0001 C CNN
+F 4 "Samsung" H 2650 3350 60  0001 C CNN "Manufacturer"
+F 5 "RC1608J680CS" H 2650 3350 60  0001 C CNN "Part"
+F 6 "http://www.digikey.com/product-detail/en/RC1608J680CS/1276-5034-1-ND/3968006" H 2650 3350 60  0001 C CNN "Link"
+	1    2650 3350
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED LED?
+U 1 1 52829AB6
+P 3050 3350
+F 0 "LED?" H 3050 3150 60  0000 C CNN
+F 1 "LED" H 3050 3250 60  0000 C CNN
+F 2 "~" H 3050 3350 60  0001 C CNN
+F 3 "~" H 3050 3350 60  0001 C CNN
+	1    3050 3350
+	-1   0    0    1   
+$EndComp
+Text Label 2150 3350 0    60   ~ 0
+ROW5
+Wire Wire Line
+	2150 3350 2500 3350
+Wire Wire Line
+	2800 3350 2900 3350
+Wire Wire Line
+	3300 3350 3200 3350
+Connection ~ 3300 2950
+$Comp
+L R R?
+U 1 1 52829AC4
+P 2650 3750
+F 0 "R?" H 2650 3550 60  0000 C CNN
+F 1 "68Ω" H 2650 3650 60  0000 C CNN
+F 2 "~" H 2650 3750 60  0001 C CNN
+F 3 "~" H 2650 3750 60  0001 C CNN
+F 4 "Samsung" H 2650 3750 60  0001 C CNN "Manufacturer"
+F 5 "RC1608J680CS" H 2650 3750 60  0001 C CNN "Part"
+F 6 "http://www.digikey.com/product-detail/en/RC1608J680CS/1276-5034-1-ND/3968006" H 2650 3750 60  0001 C CNN "Link"
+	1    2650 3750
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED LED?
+U 1 1 52829ACA
+P 3050 3750
+F 0 "LED?" H 3050 3550 60  0000 C CNN
+F 1 "LED" H 3050 3650 60  0000 C CNN
+F 2 "~" H 3050 3750 60  0001 C CNN
+F 3 "~" H 3050 3750 60  0001 C CNN
+	1    3050 3750
+	-1   0    0    1   
+$EndComp
+Text Label 2150 3750 0    60   ~ 0
+ROW6
+Wire Wire Line
+	2150 3750 2500 3750
+Wire Wire Line
+	2800 3750 2900 3750
+$Comp
+L R R?
+U 1 1 52829AD6
+P 2650 4150
+F 0 "R?" H 2650 3950 60  0000 C CNN
+F 1 "68Ω" H 2650 4050 60  0000 C CNN
+F 2 "~" H 2650 4150 60  0001 C CNN
+F 3 "~" H 2650 4150 60  0001 C CNN
+F 4 "Samsung" H 2650 4150 60  0001 C CNN "Manufacturer"
+F 5 "RC1608J680CS" H 2650 4150 60  0001 C CNN "Part"
+F 6 "http://www.digikey.com/product-detail/en/RC1608J680CS/1276-5034-1-ND/3968006" H 2650 4150 60  0001 C CNN "Link"
+	1    2650 4150
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED LED?
+U 1 1 52829ADC
+P 3050 4150
+F 0 "LED?" H 3050 3950 60  0000 C CNN
+F 1 "LED" H 3050 4050 60  0000 C CNN
+F 2 "~" H 3050 4150 60  0001 C CNN
+F 3 "~" H 3050 4150 60  0001 C CNN
+	1    3050 4150
+	-1   0    0    1   
+$EndComp
+Text Label 2150 4150 0    60   ~ 0
+ROW7
+Wire Wire Line
+	2150 4150 2500 4150
+Wire Wire Line
+	2800 4150 2900 4150
+Wire Wire Line
+	3300 3750 3200 3750
+Connection ~ 3300 3350
+Wire Wire Line
+	3300 4150 3200 4150
+Connection ~ 3300 3750
+Connection ~ 3300 2550
+Wire Wire Line
+	3300 4150 3300 950 
+$Comp
+L R R?
+U 1 1 52829AEE
+P 4050 1350
+F 0 "R?" H 4050 1150 60  0000 C CNN
+F 1 "68Ω" H 4050 1250 60  0000 C CNN
+F 2 "~" H 4050 1350 60  0001 C CNN
+F 3 "~" H 4050 1350 60  0001 C CNN
+F 4 "Samsung" H 4050 1350 60  0001 C CNN "Manufacturer"
+F 5 "RC1608J680CS" H 4050 1350 60  0001 C CNN "Part"
+F 6 "http://www.digikey.com/product-detail/en/RC1608J680CS/1276-5034-1-ND/3968006" H 4050 1350 60  0001 C CNN "Link"
+	1    4050 1350
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED LED?
+U 1 1 52829AF4
+P 4450 1350
+F 0 "LED?" H 4450 1150 60  0000 C CNN
+F 1 "LED" H 4450 1250 60  0000 C CNN
+F 2 "~" H 4450 1350 60  0001 C CNN
+F 3 "~" H 4450 1350 60  0001 C CNN
+	1    4450 1350
+	-1   0    0    1   
+$EndComp
+Text Label 3550 1350 0    60   ~ 0
+ROW0
+Wire Wire Line
+	3550 1350 3900 1350
+Text Label 4350 950  0    60   ~ 0
+COL2
+Wire Wire Line
+	4200 1350 4300 1350
+Wire Wire Line
+	4700 1350 4600 1350
+$Comp
+L R R?
+U 1 1 52829B02
+P 4050 1750
+F 0 "R?" H 4050 1550 60  0000 C CNN
+F 1 "68Ω" H 4050 1650 60  0000 C CNN
+F 2 "~" H 4050 1750 60  0001 C CNN
+F 3 "~" H 4050 1750 60  0001 C CNN
+F 4 "Samsung" H 4050 1750 60  0001 C CNN "Manufacturer"
+F 5 "RC1608J680CS" H 4050 1750 60  0001 C CNN "Part"
+F 6 "http://www.digikey.com/product-detail/en/RC1608J680CS/1276-5034-1-ND/3968006" H 4050 1750 60  0001 C CNN "Link"
+	1    4050 1750
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED LED?
+U 1 1 52829B08
+P 4450 1750
+F 0 "LED?" H 4450 1550 60  0000 C CNN
+F 1 "LED" H 4450 1650 60  0000 C CNN
+F 2 "~" H 4450 1750 60  0001 C CNN
+F 3 "~" H 4450 1750 60  0001 C CNN
+	1    4450 1750
+	-1   0    0    1   
+$EndComp
+Text Label 3550 1750 0    60   ~ 0
+ROW1
+Wire Wire Line
+	3550 1750 3900 1750
+Wire Wire Line
+	4200 1750 4300 1750
+Wire Wire Line
+	4700 1750 4600 1750
+Connection ~ 4700 1350
+$Comp
+L R R?
+U 1 1 52829B16
+P 4050 2150
+F 0 "R?" H 4050 1950 60  0000 C CNN
+F 1 "68Ω" H 4050 2050 60  0000 C CNN
+F 2 "~" H 4050 2150 60  0001 C CNN
+F 3 "~" H 4050 2150 60  0001 C CNN
+F 4 "Samsung" H 4050 2150 60  0001 C CNN "Manufacturer"
+F 5 "RC1608J680CS" H 4050 2150 60  0001 C CNN "Part"
+F 6 "http://www.digikey.com/product-detail/en/RC1608J680CS/1276-5034-1-ND/3968006" H 4050 2150 60  0001 C CNN "Link"
+	1    4050 2150
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED LED?
+U 1 1 52829B1C
+P 4450 2150
+F 0 "LED?" H 4450 1950 60  0000 C CNN
+F 1 "LED" H 4450 2050 60  0000 C CNN
+F 2 "~" H 4450 2150 60  0001 C CNN
+F 3 "~" H 4450 2150 60  0001 C CNN
+	1    4450 2150
+	-1   0    0    1   
+$EndComp
+Text Label 3550 2150 0    60   ~ 0
+ROW2
+Wire Wire Line
+	3550 2150 3900 2150
+Wire Wire Line
+	4200 2150 4300 2150
+$Comp
+L R R?
+U 1 1 52829B28
+P 4050 2550
+F 0 "R?" H 4050 2350 60  0000 C CNN
+F 1 "68Ω" H 4050 2450 60  0000 C CNN
+F 2 "~" H 4050 2550 60  0001 C CNN
+F 3 "~" H 4050 2550 60  0001 C CNN
+F 4 "Samsung" H 4050 2550 60  0001 C CNN "Manufacturer"
+F 5 "RC1608J680CS" H 4050 2550 60  0001 C CNN "Part"
+F 6 "http://www.digikey.com/product-detail/en/RC1608J680CS/1276-5034-1-ND/3968006" H 4050 2550 60  0001 C CNN "Link"
+	1    4050 2550
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED LED?
+U 1 1 52829B2E
+P 4450 2550
+F 0 "LED?" H 4450 2350 60  0000 C CNN
+F 1 "LED" H 4450 2450 60  0000 C CNN
+F 2 "~" H 4450 2550 60  0001 C CNN
+F 3 "~" H 4450 2550 60  0001 C CNN
+	1    4450 2550
+	-1   0    0    1   
+$EndComp
+Text Label 3550 2550 0    60   ~ 0
+ROW3
+Wire Wire Line
+	3550 2550 3900 2550
+Wire Wire Line
+	4200 2550 4300 2550
+Wire Wire Line
+	4700 2150 4600 2150
+Connection ~ 4700 1750
+Wire Wire Line
+	4700 2550 4600 2550
+Connection ~ 4700 2150
+Wire Wire Line
+	4700 950  4350 950 
+$Comp
+L R R?
+U 1 1 52829B3F
+P 4050 2950
+F 0 "R?" H 4050 2750 60  0000 C CNN
+F 1 "68Ω" H 4050 2850 60  0000 C CNN
+F 2 "~" H 4050 2950 60  0001 C CNN
+F 3 "~" H 4050 2950 60  0001 C CNN
+F 4 "Samsung" H 4050 2950 60  0001 C CNN "Manufacturer"
+F 5 "RC1608J680CS" H 4050 2950 60  0001 C CNN "Part"
+F 6 "http://www.digikey.com/product-detail/en/RC1608J680CS/1276-5034-1-ND/3968006" H 4050 2950 60  0001 C CNN "Link"
+	1    4050 2950
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED LED?
+U 1 1 52829B45
+P 4450 2950
+F 0 "LED?" H 4450 2750 60  0000 C CNN
+F 1 "LED" H 4450 2850 60  0000 C CNN
+F 2 "~" H 4450 2950 60  0001 C CNN
+F 3 "~" H 4450 2950 60  0001 C CNN
+	1    4450 2950
+	-1   0    0    1   
+$EndComp
+Text Label 3550 2950 0    60   ~ 0
+ROW4
+Wire Wire Line
+	3550 2950 3900 2950
+Wire Wire Line
+	4200 2950 4300 2950
+Wire Wire Line
+	4700 2950 4600 2950
+$Comp
+L R R?
+U 1 1 52829B52
+P 4050 3350
+F 0 "R?" H 4050 3150 60  0000 C CNN
+F 1 "68Ω" H 4050 3250 60  0000 C CNN
+F 2 "~" H 4050 3350 60  0001 C CNN
+F 3 "~" H 4050 3350 60  0001 C CNN
+F 4 "Samsung" H 4050 3350 60  0001 C CNN "Manufacturer"
+F 5 "RC1608J680CS" H 4050 3350 60  0001 C CNN "Part"
+F 6 "http://www.digikey.com/product-detail/en/RC1608J680CS/1276-5034-1-ND/3968006" H 4050 3350 60  0001 C CNN "Link"
+	1    4050 3350
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED LED?
+U 1 1 52829B58
+P 4450 3350
+F 0 "LED?" H 4450 3150 60  0000 C CNN
+F 1 "LED" H 4450 3250 60  0000 C CNN
+F 2 "~" H 4450 3350 60  0001 C CNN
+F 3 "~" H 4450 3350 60  0001 C CNN
+	1    4450 3350
+	-1   0    0    1   
+$EndComp
+Text Label 3550 3350 0    60   ~ 0
+ROW5
+Wire Wire Line
+	3550 3350 3900 3350
+Wire Wire Line
+	4200 3350 4300 3350
+Wire Wire Line
+	4700 3350 4600 3350
+Connection ~ 4700 2950
+$Comp
+L R R?
+U 1 1 52829B66
+P 4050 3750
+F 0 "R?" H 4050 3550 60  0000 C CNN
+F 1 "68Ω" H 4050 3650 60  0000 C CNN
+F 2 "~" H 4050 3750 60  0001 C CNN
+F 3 "~" H 4050 3750 60  0001 C CNN
+F 4 "Samsung" H 4050 3750 60  0001 C CNN "Manufacturer"
+F 5 "RC1608J680CS" H 4050 3750 60  0001 C CNN "Part"
+F 6 "http://www.digikey.com/product-detail/en/RC1608J680CS/1276-5034-1-ND/3968006" H 4050 3750 60  0001 C CNN "Link"
+	1    4050 3750
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED LED?
+U 1 1 52829B6C
+P 4450 3750
+F 0 "LED?" H 4450 3550 60  0000 C CNN
+F 1 "LED" H 4450 3650 60  0000 C CNN
+F 2 "~" H 4450 3750 60  0001 C CNN
+F 3 "~" H 4450 3750 60  0001 C CNN
+	1    4450 3750
+	-1   0    0    1   
+$EndComp
+Text Label 3550 3750 0    60   ~ 0
+ROW6
+Wire Wire Line
+	3550 3750 3900 3750
+Wire Wire Line
+	4200 3750 4300 3750
+$Comp
+L R R?
+U 1 1 52829B78
+P 4050 4150
+F 0 "R?" H 4050 3950 60  0000 C CNN
+F 1 "68Ω" H 4050 4050 60  0000 C CNN
+F 2 "~" H 4050 4150 60  0001 C CNN
+F 3 "~" H 4050 4150 60  0001 C CNN
+F 4 "Samsung" H 4050 4150 60  0001 C CNN "Manufacturer"
+F 5 "RC1608J680CS" H 4050 4150 60  0001 C CNN "Part"
+F 6 "http://www.digikey.com/product-detail/en/RC1608J680CS/1276-5034-1-ND/3968006" H 4050 4150 60  0001 C CNN "Link"
+	1    4050 4150
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED LED?
+U 1 1 52829B7E
+P 4450 4150
+F 0 "LED?" H 4450 3950 60  0000 C CNN
+F 1 "LED" H 4450 4050 60  0000 C CNN
+F 2 "~" H 4450 4150 60  0001 C CNN
+F 3 "~" H 4450 4150 60  0001 C CNN
+	1    4450 4150
+	-1   0    0    1   
+$EndComp
+Text Label 3550 4150 0    60   ~ 0
+ROW7
+Wire Wire Line
+	3550 4150 3900 4150
+Wire Wire Line
+	4200 4150 4300 4150
+Wire Wire Line
+	4700 3750 4600 3750
+Connection ~ 4700 3350
+Wire Wire Line
+	4700 4150 4600 4150
+Connection ~ 4700 3750
+Connection ~ 4700 2550
+Wire Wire Line
+	4700 4150 4700 950 
+$Comp
+L R R?
+U 1 1 52829B90
+P 5450 1350
+F 0 "R?" H 5450 1150 60  0000 C CNN
+F 1 "68Ω" H 5450 1250 60  0000 C CNN
+F 2 "~" H 5450 1350 60  0001 C CNN
+F 3 "~" H 5450 1350 60  0001 C CNN
+F 4 "Samsung" H 5450 1350 60  0001 C CNN "Manufacturer"
+F 5 "RC1608J680CS" H 5450 1350 60  0001 C CNN "Part"
+F 6 "http://www.digikey.com/product-detail/en/RC1608J680CS/1276-5034-1-ND/3968006" H 5450 1350 60  0001 C CNN "Link"
+	1    5450 1350
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED LED?
+U 1 1 52829B96
+P 5850 1350
+F 0 "LED?" H 5850 1150 60  0000 C CNN
+F 1 "LED" H 5850 1250 60  0000 C CNN
+F 2 "~" H 5850 1350 60  0001 C CNN
+F 3 "~" H 5850 1350 60  0001 C CNN
+	1    5850 1350
+	-1   0    0    1   
+$EndComp
+Text Label 4950 1350 0    60   ~ 0
+ROW0
+Wire Wire Line
+	4950 1350 5300 1350
+Text Label 5750 950  0    60   ~ 0
+COL3
+Wire Wire Line
+	5600 1350 5700 1350
+Wire Wire Line
+	6100 1350 6000 1350
+$Comp
+L R R?
+U 1 1 52829BA4
+P 5450 1750
+F 0 "R?" H 5450 1550 60  0000 C CNN
+F 1 "68Ω" H 5450 1650 60  0000 C CNN
+F 2 "~" H 5450 1750 60  0001 C CNN
+F 3 "~" H 5450 1750 60  0001 C CNN
+F 4 "Samsung" H 5450 1750 60  0001 C CNN "Manufacturer"
+F 5 "RC1608J680CS" H 5450 1750 60  0001 C CNN "Part"
+F 6 "http://www.digikey.com/product-detail/en/RC1608J680CS/1276-5034-1-ND/3968006" H 5450 1750 60  0001 C CNN "Link"
+	1    5450 1750
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED LED?
+U 1 1 52829BAA
+P 5850 1750
+F 0 "LED?" H 5850 1550 60  0000 C CNN
+F 1 "LED" H 5850 1650 60  0000 C CNN
+F 2 "~" H 5850 1750 60  0001 C CNN
+F 3 "~" H 5850 1750 60  0001 C CNN
+	1    5850 1750
+	-1   0    0    1   
+$EndComp
+Text Label 4950 1750 0    60   ~ 0
+ROW1
+Wire Wire Line
+	4950 1750 5300 1750
+Wire Wire Line
+	5600 1750 5700 1750
+Wire Wire Line
+	6100 1750 6000 1750
+Connection ~ 6100 1350
+$Comp
+L R R?
+U 1 1 52829BB8
+P 5450 2150
+F 0 "R?" H 5450 1950 60  0000 C CNN
+F 1 "68Ω" H 5450 2050 60  0000 C CNN
+F 2 "~" H 5450 2150 60  0001 C CNN
+F 3 "~" H 5450 2150 60  0001 C CNN
+F 4 "Samsung" H 5450 2150 60  0001 C CNN "Manufacturer"
+F 5 "RC1608J680CS" H 5450 2150 60  0001 C CNN "Part"
+F 6 "http://www.digikey.com/product-detail/en/RC1608J680CS/1276-5034-1-ND/3968006" H 5450 2150 60  0001 C CNN "Link"
+	1    5450 2150
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED LED?
+U 1 1 52829BBE
+P 5850 2150
+F 0 "LED?" H 5850 1950 60  0000 C CNN
+F 1 "LED" H 5850 2050 60  0000 C CNN
+F 2 "~" H 5850 2150 60  0001 C CNN
+F 3 "~" H 5850 2150 60  0001 C CNN
+	1    5850 2150
+	-1   0    0    1   
+$EndComp
+Text Label 4950 2150 0    60   ~ 0
+ROW2
+Wire Wire Line
+	4950 2150 5300 2150
+Wire Wire Line
+	5600 2150 5700 2150
+$Comp
+L R R?
+U 1 1 52829BCA
+P 5450 2550
+F 0 "R?" H 5450 2350 60  0000 C CNN
+F 1 "68Ω" H 5450 2450 60  0000 C CNN
+F 2 "~" H 5450 2550 60  0001 C CNN
+F 3 "~" H 5450 2550 60  0001 C CNN
+F 4 "Samsung" H 5450 2550 60  0001 C CNN "Manufacturer"
+F 5 "RC1608J680CS" H 5450 2550 60  0001 C CNN "Part"
+F 6 "http://www.digikey.com/product-detail/en/RC1608J680CS/1276-5034-1-ND/3968006" H 5450 2550 60  0001 C CNN "Link"
+	1    5450 2550
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED LED?
+U 1 1 52829BD0
+P 5850 2550
+F 0 "LED?" H 5850 2350 60  0000 C CNN
+F 1 "LED" H 5850 2450 60  0000 C CNN
+F 2 "~" H 5850 2550 60  0001 C CNN
+F 3 "~" H 5850 2550 60  0001 C CNN
+	1    5850 2550
+	-1   0    0    1   
+$EndComp
+Text Label 4950 2550 0    60   ~ 0
+ROW3
+Wire Wire Line
+	4950 2550 5300 2550
+Wire Wire Line
+	5600 2550 5700 2550
+Wire Wire Line
+	6100 2150 6000 2150
+Connection ~ 6100 1750
+Wire Wire Line
+	6100 2550 6000 2550
+Connection ~ 6100 2150
+Wire Wire Line
+	6100 950  5750 950 
+$Comp
+L R R?
+U 1 1 52829BE1
+P 5450 2950
+F 0 "R?" H 5450 2750 60  0000 C CNN
+F 1 "68Ω" H 5450 2850 60  0000 C CNN
+F 2 "~" H 5450 2950 60  0001 C CNN
+F 3 "~" H 5450 2950 60  0001 C CNN
+F 4 "Samsung" H 5450 2950 60  0001 C CNN "Manufacturer"
+F 5 "RC1608J680CS" H 5450 2950 60  0001 C CNN "Part"
+F 6 "http://www.digikey.com/product-detail/en/RC1608J680CS/1276-5034-1-ND/3968006" H 5450 2950 60  0001 C CNN "Link"
+	1    5450 2950
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED LED?
+U 1 1 52829BE7
+P 5850 2950
+F 0 "LED?" H 5850 2750 60  0000 C CNN
+F 1 "LED" H 5850 2850 60  0000 C CNN
+F 2 "~" H 5850 2950 60  0001 C CNN
+F 3 "~" H 5850 2950 60  0001 C CNN
+	1    5850 2950
+	-1   0    0    1   
+$EndComp
+Text Label 4950 2950 0    60   ~ 0
+ROW4
+Wire Wire Line
+	4950 2950 5300 2950
+Wire Wire Line
+	5600 2950 5700 2950
+Wire Wire Line
+	6100 2950 6000 2950
+$Comp
+L R R?
+U 1 1 52829BF4
+P 5450 3350
+F 0 "R?" H 5450 3150 60  0000 C CNN
+F 1 "68Ω" H 5450 3250 60  0000 C CNN
+F 2 "~" H 5450 3350 60  0001 C CNN
+F 3 "~" H 5450 3350 60  0001 C CNN
+F 4 "Samsung" H 5450 3350 60  0001 C CNN "Manufacturer"
+F 5 "RC1608J680CS" H 5450 3350 60  0001 C CNN "Part"
+F 6 "http://www.digikey.com/product-detail/en/RC1608J680CS/1276-5034-1-ND/3968006" H 5450 3350 60  0001 C CNN "Link"
+	1    5450 3350
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED LED?
+U 1 1 52829BFA
+P 5850 3350
+F 0 "LED?" H 5850 3150 60  0000 C CNN
+F 1 "LED" H 5850 3250 60  0000 C CNN
+F 2 "~" H 5850 3350 60  0001 C CNN
+F 3 "~" H 5850 3350 60  0001 C CNN
+	1    5850 3350
+	-1   0    0    1   
+$EndComp
+Text Label 4950 3350 0    60   ~ 0
+ROW5
+Wire Wire Line
+	4950 3350 5300 3350
+Wire Wire Line
+	5600 3350 5700 3350
+Wire Wire Line
+	6100 3350 6000 3350
+Connection ~ 6100 2950
+$Comp
+L R R?
+U 1 1 52829C08
+P 5450 3750
+F 0 "R?" H 5450 3550 60  0000 C CNN
+F 1 "68Ω" H 5450 3650 60  0000 C CNN
+F 2 "~" H 5450 3750 60  0001 C CNN
+F 3 "~" H 5450 3750 60  0001 C CNN
+F 4 "Samsung" H 5450 3750 60  0001 C CNN "Manufacturer"
+F 5 "RC1608J680CS" H 5450 3750 60  0001 C CNN "Part"
+F 6 "http://www.digikey.com/product-detail/en/RC1608J680CS/1276-5034-1-ND/3968006" H 5450 3750 60  0001 C CNN "Link"
+	1    5450 3750
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED LED?
+U 1 1 52829C0E
+P 5850 3750
+F 0 "LED?" H 5850 3550 60  0000 C CNN
+F 1 "LED" H 5850 3650 60  0000 C CNN
+F 2 "~" H 5850 3750 60  0001 C CNN
+F 3 "~" H 5850 3750 60  0001 C CNN
+	1    5850 3750
+	-1   0    0    1   
+$EndComp
+Text Label 4950 3750 0    60   ~ 0
+ROW6
+Wire Wire Line
+	4950 3750 5300 3750
+Wire Wire Line
+	5600 3750 5700 3750
+$Comp
+L R R?
+U 1 1 52829C1A
+P 5450 4150
+F 0 "R?" H 5450 3950 60  0000 C CNN
+F 1 "68Ω" H 5450 4050 60  0000 C CNN
+F 2 "~" H 5450 4150 60  0001 C CNN
+F 3 "~" H 5450 4150 60  0001 C CNN
+F 4 "Samsung" H 5450 4150 60  0001 C CNN "Manufacturer"
+F 5 "RC1608J680CS" H 5450 4150 60  0001 C CNN "Part"
+F 6 "http://www.digikey.com/product-detail/en/RC1608J680CS/1276-5034-1-ND/3968006" H 5450 4150 60  0001 C CNN "Link"
+	1    5450 4150
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED LED?
+U 1 1 52829C20
+P 5850 4150
+F 0 "LED?" H 5850 3950 60  0000 C CNN
+F 1 "LED" H 5850 4050 60  0000 C CNN
+F 2 "~" H 5850 4150 60  0001 C CNN
+F 3 "~" H 5850 4150 60  0001 C CNN
+	1    5850 4150
+	-1   0    0    1   
+$EndComp
+Text Label 4950 4150 0    60   ~ 0
+ROW7
+Wire Wire Line
+	4950 4150 5300 4150
+Wire Wire Line
+	5600 4150 5700 4150
+Wire Wire Line
+	6100 3750 6000 3750
+Connection ~ 6100 3350
+Wire Wire Line
+	6100 4150 6000 4150
+Connection ~ 6100 3750
+Connection ~ 6100 2550
+Wire Wire Line
+	6100 4150 6100 950 
+$Comp
+L R R?
+U 1 1 52829C32
+P 6850 1350
+F 0 "R?" H 6850 1150 60  0000 C CNN
+F 1 "68Ω" H 6850 1250 60  0000 C CNN
+F 2 "~" H 6850 1350 60  0001 C CNN
+F 3 "~" H 6850 1350 60  0001 C CNN
+F 4 "Samsung" H 6850 1350 60  0001 C CNN "Manufacturer"
+F 5 "RC1608J680CS" H 6850 1350 60  0001 C CNN "Part"
+F 6 "http://www.digikey.com/product-detail/en/RC1608J680CS/1276-5034-1-ND/3968006" H 6850 1350 60  0001 C CNN "Link"
+	1    6850 1350
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED LED?
+U 1 1 52829C38
+P 7250 1350
+F 0 "LED?" H 7250 1150 60  0000 C CNN
+F 1 "LED" H 7250 1250 60  0000 C CNN
+F 2 "~" H 7250 1350 60  0001 C CNN
+F 3 "~" H 7250 1350 60  0001 C CNN
+	1    7250 1350
+	-1   0    0    1   
+$EndComp
+Text Label 6350 1350 0    60   ~ 0
+ROW0
+Wire Wire Line
+	6350 1350 6700 1350
+Text Label 7150 950  0    60   ~ 0
+COL4
+Wire Wire Line
+	7000 1350 7100 1350
+Wire Wire Line
+	7500 1350 7400 1350
+$Comp
+L R R?
+U 1 1 52829C46
+P 6850 1750
+F 0 "R?" H 6850 1550 60  0000 C CNN
+F 1 "68Ω" H 6850 1650 60  0000 C CNN
+F 2 "~" H 6850 1750 60  0001 C CNN
+F 3 "~" H 6850 1750 60  0001 C CNN
+F 4 "Samsung" H 6850 1750 60  0001 C CNN "Manufacturer"
+F 5 "RC1608J680CS" H 6850 1750 60  0001 C CNN "Part"
+F 6 "http://www.digikey.com/product-detail/en/RC1608J680CS/1276-5034-1-ND/3968006" H 6850 1750 60  0001 C CNN "Link"
+	1    6850 1750
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED LED?
+U 1 1 52829C4C
+P 7250 1750
+F 0 "LED?" H 7250 1550 60  0000 C CNN
+F 1 "LED" H 7250 1650 60  0000 C CNN
+F 2 "~" H 7250 1750 60  0001 C CNN
+F 3 "~" H 7250 1750 60  0001 C CNN
+	1    7250 1750
+	-1   0    0    1   
+$EndComp
+Text Label 6350 1750 0    60   ~ 0
+ROW1
+Wire Wire Line
+	6350 1750 6700 1750
+Wire Wire Line
+	7000 1750 7100 1750
+Wire Wire Line
+	7500 1750 7400 1750
+Connection ~ 7500 1350
+$Comp
+L R R?
+U 1 1 52829C5A
+P 6850 2150
+F 0 "R?" H 6850 1950 60  0000 C CNN
+F 1 "68Ω" H 6850 2050 60  0000 C CNN
+F 2 "~" H 6850 2150 60  0001 C CNN
+F 3 "~" H 6850 2150 60  0001 C CNN
+F 4 "Samsung" H 6850 2150 60  0001 C CNN "Manufacturer"
+F 5 "RC1608J680CS" H 6850 2150 60  0001 C CNN "Part"
+F 6 "http://www.digikey.com/product-detail/en/RC1608J680CS/1276-5034-1-ND/3968006" H 6850 2150 60  0001 C CNN "Link"
+	1    6850 2150
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED LED?
+U 1 1 52829C60
+P 7250 2150
+F 0 "LED?" H 7250 1950 60  0000 C CNN
+F 1 "LED" H 7250 2050 60  0000 C CNN
+F 2 "~" H 7250 2150 60  0001 C CNN
+F 3 "~" H 7250 2150 60  0001 C CNN
+	1    7250 2150
+	-1   0    0    1   
+$EndComp
+Text Label 6350 2150 0    60   ~ 0
+ROW2
+Wire Wire Line
+	6350 2150 6700 2150
+Wire Wire Line
+	7000 2150 7100 2150
+$Comp
+L R R?
+U 1 1 52829C6C
+P 6850 2550
+F 0 "R?" H 6850 2350 60  0000 C CNN
+F 1 "68Ω" H 6850 2450 60  0000 C CNN
+F 2 "~" H 6850 2550 60  0001 C CNN
+F 3 "~" H 6850 2550 60  0001 C CNN
+F 4 "Samsung" H 6850 2550 60  0001 C CNN "Manufacturer"
+F 5 "RC1608J680CS" H 6850 2550 60  0001 C CNN "Part"
+F 6 "http://www.digikey.com/product-detail/en/RC1608J680CS/1276-5034-1-ND/3968006" H 6850 2550 60  0001 C CNN "Link"
+	1    6850 2550
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED LED?
+U 1 1 52829C72
+P 7250 2550
+F 0 "LED?" H 7250 2350 60  0000 C CNN
+F 1 "LED" H 7250 2450 60  0000 C CNN
+F 2 "~" H 7250 2550 60  0001 C CNN
+F 3 "~" H 7250 2550 60  0001 C CNN
+	1    7250 2550
+	-1   0    0    1   
+$EndComp
+Text Label 6350 2550 0    60   ~ 0
+ROW3
+Wire Wire Line
+	6350 2550 6700 2550
+Wire Wire Line
+	7000 2550 7100 2550
+Wire Wire Line
+	7500 2150 7400 2150
+Connection ~ 7500 1750
+Wire Wire Line
+	7500 2550 7400 2550
+Connection ~ 7500 2150
+Wire Wire Line
+	7500 950  7150 950 
+$Comp
+L R R?
+U 1 1 52829C83
+P 6850 2950
+F 0 "R?" H 6850 2750 60  0000 C CNN
+F 1 "68Ω" H 6850 2850 60  0000 C CNN
+F 2 "~" H 6850 2950 60  0001 C CNN
+F 3 "~" H 6850 2950 60  0001 C CNN
+F 4 "Samsung" H 6850 2950 60  0001 C CNN "Manufacturer"
+F 5 "RC1608J680CS" H 6850 2950 60  0001 C CNN "Part"
+F 6 "http://www.digikey.com/product-detail/en/RC1608J680CS/1276-5034-1-ND/3968006" H 6850 2950 60  0001 C CNN "Link"
+	1    6850 2950
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED LED?
+U 1 1 52829C89
+P 7250 2950
+F 0 "LED?" H 7250 2750 60  0000 C CNN
+F 1 "LED" H 7250 2850 60  0000 C CNN
+F 2 "~" H 7250 2950 60  0001 C CNN
+F 3 "~" H 7250 2950 60  0001 C CNN
+	1    7250 2950
+	-1   0    0    1   
+$EndComp
+Text Label 6350 2950 0    60   ~ 0
+ROW4
+Wire Wire Line
+	6350 2950 6700 2950
+Wire Wire Line
+	7000 2950 7100 2950
+Wire Wire Line
+	7500 2950 7400 2950
+$Comp
+L R R?
+U 1 1 52829C96
+P 6850 3350
+F 0 "R?" H 6850 3150 60  0000 C CNN
+F 1 "68Ω" H 6850 3250 60  0000 C CNN
+F 2 "~" H 6850 3350 60  0001 C CNN
+F 3 "~" H 6850 3350 60  0001 C CNN
+F 4 "Samsung" H 6850 3350 60  0001 C CNN "Manufacturer"
+F 5 "RC1608J680CS" H 6850 3350 60  0001 C CNN "Part"
+F 6 "http://www.digikey.com/product-detail/en/RC1608J680CS/1276-5034-1-ND/3968006" H 6850 3350 60  0001 C CNN "Link"
+	1    6850 3350
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED LED?
+U 1 1 52829C9C
+P 7250 3350
+F 0 "LED?" H 7250 3150 60  0000 C CNN
+F 1 "LED" H 7250 3250 60  0000 C CNN
+F 2 "~" H 7250 3350 60  0001 C CNN
+F 3 "~" H 7250 3350 60  0001 C CNN
+	1    7250 3350
+	-1   0    0    1   
+$EndComp
+Text Label 6350 3350 0    60   ~ 0
+ROW5
+Wire Wire Line
+	6350 3350 6700 3350
+Wire Wire Line
+	7000 3350 7100 3350
+Wire Wire Line
+	7500 3350 7400 3350
+Connection ~ 7500 2950
+$Comp
+L R R?
+U 1 1 52829CAA
+P 6850 3750
+F 0 "R?" H 6850 3550 60  0000 C CNN
+F 1 "68Ω" H 6850 3650 60  0000 C CNN
+F 2 "~" H 6850 3750 60  0001 C CNN
+F 3 "~" H 6850 3750 60  0001 C CNN
+F 4 "Samsung" H 6850 3750 60  0001 C CNN "Manufacturer"
+F 5 "RC1608J680CS" H 6850 3750 60  0001 C CNN "Part"
+F 6 "http://www.digikey.com/product-detail/en/RC1608J680CS/1276-5034-1-ND/3968006" H 6850 3750 60  0001 C CNN "Link"
+	1    6850 3750
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED LED?
+U 1 1 52829CB0
+P 7250 3750
+F 0 "LED?" H 7250 3550 60  0000 C CNN
+F 1 "LED" H 7250 3650 60  0000 C CNN
+F 2 "~" H 7250 3750 60  0001 C CNN
+F 3 "~" H 7250 3750 60  0001 C CNN
+	1    7250 3750
+	-1   0    0    1   
+$EndComp
+Text Label 6350 3750 0    60   ~ 0
+ROW6
+Wire Wire Line
+	6350 3750 6700 3750
+Wire Wire Line
+	7000 3750 7100 3750
+$Comp
+L R R?
+U 1 1 52829CBC
+P 6850 4150
+F 0 "R?" H 6850 3950 60  0000 C CNN
+F 1 "68Ω" H 6850 4050 60  0000 C CNN
+F 2 "~" H 6850 4150 60  0001 C CNN
+F 3 "~" H 6850 4150 60  0001 C CNN
+F 4 "Samsung" H 6850 4150 60  0001 C CNN "Manufacturer"
+F 5 "RC1608J680CS" H 6850 4150 60  0001 C CNN "Part"
+F 6 "http://www.digikey.com/product-detail/en/RC1608J680CS/1276-5034-1-ND/3968006" H 6850 4150 60  0001 C CNN "Link"
+	1    6850 4150
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED LED?
+U 1 1 52829CC2
+P 7250 4150
+F 0 "LED?" H 7250 3950 60  0000 C CNN
+F 1 "LED" H 7250 4050 60  0000 C CNN
+F 2 "~" H 7250 4150 60  0001 C CNN
+F 3 "~" H 7250 4150 60  0001 C CNN
+	1    7250 4150
+	-1   0    0    1   
+$EndComp
+Text Label 6350 4150 0    60   ~ 0
+ROW7
+Wire Wire Line
+	6350 4150 6700 4150
+Wire Wire Line
+	7000 4150 7100 4150
+Wire Wire Line
+	7500 3750 7400 3750
+Connection ~ 7500 3350
+Wire Wire Line
+	7500 4150 7400 4150
+Connection ~ 7500 3750
+Connection ~ 7500 2550
+Wire Wire Line
+	7500 4150 7500 950 
+$Comp
+L R R?
+U 1 1 52829CD4
+P 8250 1350
+F 0 "R?" H 8250 1150 60  0000 C CNN
+F 1 "68Ω" H 8250 1250 60  0000 C CNN
+F 2 "~" H 8250 1350 60  0001 C CNN
+F 3 "~" H 8250 1350 60  0001 C CNN
+F 4 "Samsung" H 8250 1350 60  0001 C CNN "Manufacturer"
+F 5 "RC1608J680CS" H 8250 1350 60  0001 C CNN "Part"
+F 6 "http://www.digikey.com/product-detail/en/RC1608J680CS/1276-5034-1-ND/3968006" H 8250 1350 60  0001 C CNN "Link"
+	1    8250 1350
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED LED?
+U 1 1 52829CDA
+P 8650 1350
+F 0 "LED?" H 8650 1150 60  0000 C CNN
+F 1 "LED" H 8650 1250 60  0000 C CNN
+F 2 "~" H 8650 1350 60  0001 C CNN
+F 3 "~" H 8650 1350 60  0001 C CNN
+	1    8650 1350
+	-1   0    0    1   
+$EndComp
+Text Label 7750 1350 0    60   ~ 0
+ROW0
+Wire Wire Line
+	7750 1350 8100 1350
+Text Label 8550 950  0    60   ~ 0
+COL5
+Wire Wire Line
+	8400 1350 8500 1350
+Wire Wire Line
+	8900 1350 8800 1350
+$Comp
+L R R?
+U 1 1 52829CE8
+P 8250 1750
+F 0 "R?" H 8250 1550 60  0000 C CNN
+F 1 "68Ω" H 8250 1650 60  0000 C CNN
+F 2 "~" H 8250 1750 60  0001 C CNN
+F 3 "~" H 8250 1750 60  0001 C CNN
+F 4 "Samsung" H 8250 1750 60  0001 C CNN "Manufacturer"
+F 5 "RC1608J680CS" H 8250 1750 60  0001 C CNN "Part"
+F 6 "http://www.digikey.com/product-detail/en/RC1608J680CS/1276-5034-1-ND/3968006" H 8250 1750 60  0001 C CNN "Link"
+	1    8250 1750
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED LED?
+U 1 1 52829CEE
+P 8650 1750
+F 0 "LED?" H 8650 1550 60  0000 C CNN
+F 1 "LED" H 8650 1650 60  0000 C CNN
+F 2 "~" H 8650 1750 60  0001 C CNN
+F 3 "~" H 8650 1750 60  0001 C CNN
+	1    8650 1750
+	-1   0    0    1   
+$EndComp
+Text Label 7750 1750 0    60   ~ 0
+ROW1
+Wire Wire Line
+	7750 1750 8100 1750
+Wire Wire Line
+	8400 1750 8500 1750
+Wire Wire Line
+	8900 1750 8800 1750
+Connection ~ 8900 1350
+$Comp
+L R R?
+U 1 1 52829CFC
+P 8250 2150
+F 0 "R?" H 8250 1950 60  0000 C CNN
+F 1 "68Ω" H 8250 2050 60  0000 C CNN
+F 2 "~" H 8250 2150 60  0001 C CNN
+F 3 "~" H 8250 2150 60  0001 C CNN
+F 4 "Samsung" H 8250 2150 60  0001 C CNN "Manufacturer"
+F 5 "RC1608J680CS" H 8250 2150 60  0001 C CNN "Part"
+F 6 "http://www.digikey.com/product-detail/en/RC1608J680CS/1276-5034-1-ND/3968006" H 8250 2150 60  0001 C CNN "Link"
+	1    8250 2150
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED LED?
+U 1 1 52829D02
+P 8650 2150
+F 0 "LED?" H 8650 1950 60  0000 C CNN
+F 1 "LED" H 8650 2050 60  0000 C CNN
+F 2 "~" H 8650 2150 60  0001 C CNN
+F 3 "~" H 8650 2150 60  0001 C CNN
+	1    8650 2150
+	-1   0    0    1   
+$EndComp
+Text Label 7750 2150 0    60   ~ 0
+ROW2
+Wire Wire Line
+	7750 2150 8100 2150
+Wire Wire Line
+	8400 2150 8500 2150
+$Comp
+L R R?
+U 1 1 52829D0E
+P 8250 2550
+F 0 "R?" H 8250 2350 60  0000 C CNN
+F 1 "68Ω" H 8250 2450 60  0000 C CNN
+F 2 "~" H 8250 2550 60  0001 C CNN
+F 3 "~" H 8250 2550 60  0001 C CNN
+F 4 "Samsung" H 8250 2550 60  0001 C CNN "Manufacturer"
+F 5 "RC1608J680CS" H 8250 2550 60  0001 C CNN "Part"
+F 6 "http://www.digikey.com/product-detail/en/RC1608J680CS/1276-5034-1-ND/3968006" H 8250 2550 60  0001 C CNN "Link"
+	1    8250 2550
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED LED?
+U 1 1 52829D14
+P 8650 2550
+F 0 "LED?" H 8650 2350 60  0000 C CNN
+F 1 "LED" H 8650 2450 60  0000 C CNN
+F 2 "~" H 8650 2550 60  0001 C CNN
+F 3 "~" H 8650 2550 60  0001 C CNN
+	1    8650 2550
+	-1   0    0    1   
+$EndComp
+Text Label 7750 2550 0    60   ~ 0
+ROW3
+Wire Wire Line
+	7750 2550 8100 2550
+Wire Wire Line
+	8400 2550 8500 2550
+Wire Wire Line
+	8900 2150 8800 2150
+Connection ~ 8900 1750
+Wire Wire Line
+	8900 2550 8800 2550
+Connection ~ 8900 2150
+Wire Wire Line
+	8900 950  8550 950 
+$Comp
+L R R?
+U 1 1 52829D25
+P 8250 2950
+F 0 "R?" H 8250 2750 60  0000 C CNN
+F 1 "68Ω" H 8250 2850 60  0000 C CNN
+F 2 "~" H 8250 2950 60  0001 C CNN
+F 3 "~" H 8250 2950 60  0001 C CNN
+F 4 "Samsung" H 8250 2950 60  0001 C CNN "Manufacturer"
+F 5 "RC1608J680CS" H 8250 2950 60  0001 C CNN "Part"
+F 6 "http://www.digikey.com/product-detail/en/RC1608J680CS/1276-5034-1-ND/3968006" H 8250 2950 60  0001 C CNN "Link"
+	1    8250 2950
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED LED?
+U 1 1 52829D2B
+P 8650 2950
+F 0 "LED?" H 8650 2750 60  0000 C CNN
+F 1 "LED" H 8650 2850 60  0000 C CNN
+F 2 "~" H 8650 2950 60  0001 C CNN
+F 3 "~" H 8650 2950 60  0001 C CNN
+	1    8650 2950
+	-1   0    0    1   
+$EndComp
+Text Label 7750 2950 0    60   ~ 0
+ROW4
+Wire Wire Line
+	7750 2950 8100 2950
+Wire Wire Line
+	8400 2950 8500 2950
+Wire Wire Line
+	8900 2950 8800 2950
+$Comp
+L R R?
+U 1 1 52829D38
+P 8250 3350
+F 0 "R?" H 8250 3150 60  0000 C CNN
+F 1 "68Ω" H 8250 3250 60  0000 C CNN
+F 2 "~" H 8250 3350 60  0001 C CNN
+F 3 "~" H 8250 3350 60  0001 C CNN
+F 4 "Samsung" H 8250 3350 60  0001 C CNN "Manufacturer"
+F 5 "RC1608J680CS" H 8250 3350 60  0001 C CNN "Part"
+F 6 "http://www.digikey.com/product-detail/en/RC1608J680CS/1276-5034-1-ND/3968006" H 8250 3350 60  0001 C CNN "Link"
+	1    8250 3350
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED LED?
+U 1 1 52829D3E
+P 8650 3350
+F 0 "LED?" H 8650 3150 60  0000 C CNN
+F 1 "LED" H 8650 3250 60  0000 C CNN
+F 2 "~" H 8650 3350 60  0001 C CNN
+F 3 "~" H 8650 3350 60  0001 C CNN
+	1    8650 3350
+	-1   0    0    1   
+$EndComp
+Text Label 7750 3350 0    60   ~ 0
+ROW5
+Wire Wire Line
+	7750 3350 8100 3350
+Wire Wire Line
+	8400 3350 8500 3350
+Wire Wire Line
+	8900 3350 8800 3350
+Connection ~ 8900 2950
+$Comp
+L R R?
+U 1 1 52829D4C
+P 8250 3750
+F 0 "R?" H 8250 3550 60  0000 C CNN
+F 1 "68Ω" H 8250 3650 60  0000 C CNN
+F 2 "~" H 8250 3750 60  0001 C CNN
+F 3 "~" H 8250 3750 60  0001 C CNN
+F 4 "Samsung" H 8250 3750 60  0001 C CNN "Manufacturer"
+F 5 "RC1608J680CS" H 8250 3750 60  0001 C CNN "Part"
+F 6 "http://www.digikey.com/product-detail/en/RC1608J680CS/1276-5034-1-ND/3968006" H 8250 3750 60  0001 C CNN "Link"
+	1    8250 3750
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED LED?
+U 1 1 52829D52
+P 8650 3750
+F 0 "LED?" H 8650 3550 60  0000 C CNN
+F 1 "LED" H 8650 3650 60  0000 C CNN
+F 2 "~" H 8650 3750 60  0001 C CNN
+F 3 "~" H 8650 3750 60  0001 C CNN
+	1    8650 3750
+	-1   0    0    1   
+$EndComp
+Text Label 7750 3750 0    60   ~ 0
+ROW6
+Wire Wire Line
+	7750 3750 8100 3750
+Wire Wire Line
+	8400 3750 8500 3750
+$Comp
+L R R?
+U 1 1 52829D5E
+P 8250 4150
+F 0 "R?" H 8250 3950 60  0000 C CNN
+F 1 "68Ω" H 8250 4050 60  0000 C CNN
+F 2 "~" H 8250 4150 60  0001 C CNN
+F 3 "~" H 8250 4150 60  0001 C CNN
+F 4 "Samsung" H 8250 4150 60  0001 C CNN "Manufacturer"
+F 5 "RC1608J680CS" H 8250 4150 60  0001 C CNN "Part"
+F 6 "http://www.digikey.com/product-detail/en/RC1608J680CS/1276-5034-1-ND/3968006" H 8250 4150 60  0001 C CNN "Link"
+	1    8250 4150
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED LED?
+U 1 1 52829D64
+P 8650 4150
+F 0 "LED?" H 8650 3950 60  0000 C CNN
+F 1 "LED" H 8650 4050 60  0000 C CNN
+F 2 "~" H 8650 4150 60  0001 C CNN
+F 3 "~" H 8650 4150 60  0001 C CNN
+	1    8650 4150
+	-1   0    0    1   
+$EndComp
+Text Label 7750 4150 0    60   ~ 0
+ROW7
+Wire Wire Line
+	7750 4150 8100 4150
+Wire Wire Line
+	8400 4150 8500 4150
+Wire Wire Line
+	8900 3750 8800 3750
+Connection ~ 8900 3350
+Wire Wire Line
+	8900 4150 8800 4150
+Connection ~ 8900 3750
+Connection ~ 8900 2550
+Wire Wire Line
+	8900 4150 8900 950 
+$Comp
+L R R?
+U 1 1 52829D76
+P 9650 1350
+F 0 "R?" H 9650 1150 60  0000 C CNN
+F 1 "68Ω" H 9650 1250 60  0000 C CNN
+F 2 "~" H 9650 1350 60  0001 C CNN
+F 3 "~" H 9650 1350 60  0001 C CNN
+F 4 "Samsung" H 9650 1350 60  0001 C CNN "Manufacturer"
+F 5 "RC1608J680CS" H 9650 1350 60  0001 C CNN "Part"
+F 6 "http://www.digikey.com/product-detail/en/RC1608J680CS/1276-5034-1-ND/3968006" H 9650 1350 60  0001 C CNN "Link"
+	1    9650 1350
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED LED?
+U 1 1 52829D7C
+P 10050 1350
+F 0 "LED?" H 10050 1150 60  0000 C CNN
+F 1 "LED" H 10050 1250 60  0000 C CNN
+F 2 "~" H 10050 1350 60  0001 C CNN
+F 3 "~" H 10050 1350 60  0001 C CNN
+	1    10050 1350
+	-1   0    0    1   
+$EndComp
+Text Label 9150 1350 0    60   ~ 0
+ROW0
+Wire Wire Line
+	9150 1350 9500 1350
+Text Label 9950 950  0    60   ~ 0
+COL6
+Wire Wire Line
+	9800 1350 9900 1350
+Wire Wire Line
+	10300 1350 10200 1350
+$Comp
+L R R?
+U 1 1 52829D8A
+P 9650 1750
+F 0 "R?" H 9650 1550 60  0000 C CNN
+F 1 "68Ω" H 9650 1650 60  0000 C CNN
+F 2 "~" H 9650 1750 60  0001 C CNN
+F 3 "~" H 9650 1750 60  0001 C CNN
+F 4 "Samsung" H 9650 1750 60  0001 C CNN "Manufacturer"
+F 5 "RC1608J680CS" H 9650 1750 60  0001 C CNN "Part"
+F 6 "http://www.digikey.com/product-detail/en/RC1608J680CS/1276-5034-1-ND/3968006" H 9650 1750 60  0001 C CNN "Link"
+	1    9650 1750
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED LED?
+U 1 1 52829D90
+P 10050 1750
+F 0 "LED?" H 10050 1550 60  0000 C CNN
+F 1 "LED" H 10050 1650 60  0000 C CNN
+F 2 "~" H 10050 1750 60  0001 C CNN
+F 3 "~" H 10050 1750 60  0001 C CNN
+	1    10050 1750
+	-1   0    0    1   
+$EndComp
+Text Label 9150 1750 0    60   ~ 0
+ROW1
+Wire Wire Line
+	9150 1750 9500 1750
+Wire Wire Line
+	9800 1750 9900 1750
+Wire Wire Line
+	10300 1750 10200 1750
+Connection ~ 10300 1350
+$Comp
+L R R?
+U 1 1 52829D9E
+P 9650 2150
+F 0 "R?" H 9650 1950 60  0000 C CNN
+F 1 "68Ω" H 9650 2050 60  0000 C CNN
+F 2 "~" H 9650 2150 60  0001 C CNN
+F 3 "~" H 9650 2150 60  0001 C CNN
+F 4 "Samsung" H 9650 2150 60  0001 C CNN "Manufacturer"
+F 5 "RC1608J680CS" H 9650 2150 60  0001 C CNN "Part"
+F 6 "http://www.digikey.com/product-detail/en/RC1608J680CS/1276-5034-1-ND/3968006" H 9650 2150 60  0001 C CNN "Link"
+	1    9650 2150
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED LED?
+U 1 1 52829DA4
+P 10050 2150
+F 0 "LED?" H 10050 1950 60  0000 C CNN
+F 1 "LED" H 10050 2050 60  0000 C CNN
+F 2 "~" H 10050 2150 60  0001 C CNN
+F 3 "~" H 10050 2150 60  0001 C CNN
+	1    10050 2150
+	-1   0    0    1   
+$EndComp
+Text Label 9150 2150 0    60   ~ 0
+ROW2
+Wire Wire Line
+	9150 2150 9500 2150
+Wire Wire Line
+	9800 2150 9900 2150
+$Comp
+L R R?
+U 1 1 52829DB0
+P 9650 2550
+F 0 "R?" H 9650 2350 60  0000 C CNN
+F 1 "68Ω" H 9650 2450 60  0000 C CNN
+F 2 "~" H 9650 2550 60  0001 C CNN
+F 3 "~" H 9650 2550 60  0001 C CNN
+F 4 "Samsung" H 9650 2550 60  0001 C CNN "Manufacturer"
+F 5 "RC1608J680CS" H 9650 2550 60  0001 C CNN "Part"
+F 6 "http://www.digikey.com/product-detail/en/RC1608J680CS/1276-5034-1-ND/3968006" H 9650 2550 60  0001 C CNN "Link"
+	1    9650 2550
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED LED?
+U 1 1 52829DB6
+P 10050 2550
+F 0 "LED?" H 10050 2350 60  0000 C CNN
+F 1 "LED" H 10050 2450 60  0000 C CNN
+F 2 "~" H 10050 2550 60  0001 C CNN
+F 3 "~" H 10050 2550 60  0001 C CNN
+	1    10050 2550
+	-1   0    0    1   
+$EndComp
+Text Label 9150 2550 0    60   ~ 0
+ROW3
+Wire Wire Line
+	9150 2550 9500 2550
+Wire Wire Line
+	9800 2550 9900 2550
+Wire Wire Line
+	10300 2150 10200 2150
+Connection ~ 10300 1750
+Wire Wire Line
+	10300 2550 10200 2550
+Connection ~ 10300 2150
+Wire Wire Line
+	10300 950  9950 950 
+$Comp
+L R R?
+U 1 1 52829DC7
+P 9650 2950
+F 0 "R?" H 9650 2750 60  0000 C CNN
+F 1 "68Ω" H 9650 2850 60  0000 C CNN
+F 2 "~" H 9650 2950 60  0001 C CNN
+F 3 "~" H 9650 2950 60  0001 C CNN
+F 4 "Samsung" H 9650 2950 60  0001 C CNN "Manufacturer"
+F 5 "RC1608J680CS" H 9650 2950 60  0001 C CNN "Part"
+F 6 "http://www.digikey.com/product-detail/en/RC1608J680CS/1276-5034-1-ND/3968006" H 9650 2950 60  0001 C CNN "Link"
+	1    9650 2950
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED LED?
+U 1 1 52829DCD
+P 10050 2950
+F 0 "LED?" H 10050 2750 60  0000 C CNN
+F 1 "LED" H 10050 2850 60  0000 C CNN
+F 2 "~" H 10050 2950 60  0001 C CNN
+F 3 "~" H 10050 2950 60  0001 C CNN
+	1    10050 2950
+	-1   0    0    1   
+$EndComp
+Text Label 9150 2950 0    60   ~ 0
+ROW4
+Wire Wire Line
+	9150 2950 9500 2950
+Wire Wire Line
+	9800 2950 9900 2950
+Wire Wire Line
+	10300 2950 10200 2950
+$Comp
+L R R?
+U 1 1 52829DDA
+P 9650 3350
+F 0 "R?" H 9650 3150 60  0000 C CNN
+F 1 "68Ω" H 9650 3250 60  0000 C CNN
+F 2 "~" H 9650 3350 60  0001 C CNN
+F 3 "~" H 9650 3350 60  0001 C CNN
+F 4 "Samsung" H 9650 3350 60  0001 C CNN "Manufacturer"
+F 5 "RC1608J680CS" H 9650 3350 60  0001 C CNN "Part"
+F 6 "http://www.digikey.com/product-detail/en/RC1608J680CS/1276-5034-1-ND/3968006" H 9650 3350 60  0001 C CNN "Link"
+	1    9650 3350
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED LED?
+U 1 1 52829DE0
+P 10050 3350
+F 0 "LED?" H 10050 3150 60  0000 C CNN
+F 1 "LED" H 10050 3250 60  0000 C CNN
+F 2 "~" H 10050 3350 60  0001 C CNN
+F 3 "~" H 10050 3350 60  0001 C CNN
+	1    10050 3350
+	-1   0    0    1   
+$EndComp
+Text Label 9150 3350 0    60   ~ 0
+ROW5
+Wire Wire Line
+	9150 3350 9500 3350
+Wire Wire Line
+	9800 3350 9900 3350
+Wire Wire Line
+	10300 3350 10200 3350
+Connection ~ 10300 2950
+$Comp
+L R R?
+U 1 1 52829DEE
+P 9650 3750
+F 0 "R?" H 9650 3550 60  0000 C CNN
+F 1 "68Ω" H 9650 3650 60  0000 C CNN
+F 2 "~" H 9650 3750 60  0001 C CNN
+F 3 "~" H 9650 3750 60  0001 C CNN
+F 4 "Samsung" H 9650 3750 60  0001 C CNN "Manufacturer"
+F 5 "RC1608J680CS" H 9650 3750 60  0001 C CNN "Part"
+F 6 "http://www.digikey.com/product-detail/en/RC1608J680CS/1276-5034-1-ND/3968006" H 9650 3750 60  0001 C CNN "Link"
+	1    9650 3750
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED LED?
+U 1 1 52829DF4
+P 10050 3750
+F 0 "LED?" H 10050 3550 60  0000 C CNN
+F 1 "LED" H 10050 3650 60  0000 C CNN
+F 2 "~" H 10050 3750 60  0001 C CNN
+F 3 "~" H 10050 3750 60  0001 C CNN
+	1    10050 3750
+	-1   0    0    1   
+$EndComp
+Text Label 9150 3750 0    60   ~ 0
+ROW6
+Wire Wire Line
+	9150 3750 9500 3750
+Wire Wire Line
+	9800 3750 9900 3750
+$Comp
+L R R?
+U 1 1 52829E00
+P 9650 4150
+F 0 "R?" H 9650 3950 60  0000 C CNN
+F 1 "68Ω" H 9650 4050 60  0000 C CNN
+F 2 "~" H 9650 4150 60  0001 C CNN
+F 3 "~" H 9650 4150 60  0001 C CNN
+F 4 "Samsung" H 9650 4150 60  0001 C CNN "Manufacturer"
+F 5 "RC1608J680CS" H 9650 4150 60  0001 C CNN "Part"
+F 6 "http://www.digikey.com/product-detail/en/RC1608J680CS/1276-5034-1-ND/3968006" H 9650 4150 60  0001 C CNN "Link"
+	1    9650 4150
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED LED?
+U 1 1 52829E06
+P 10050 4150
+F 0 "LED?" H 10050 3950 60  0000 C CNN
+F 1 "LED" H 10050 4050 60  0000 C CNN
+F 2 "~" H 10050 4150 60  0001 C CNN
+F 3 "~" H 10050 4150 60  0001 C CNN
+	1    10050 4150
+	-1   0    0    1   
+$EndComp
+Text Label 9150 4150 0    60   ~ 0
+ROW7
+Wire Wire Line
+	9150 4150 9500 4150
+Wire Wire Line
+	9800 4150 9900 4150
+Wire Wire Line
+	10300 3750 10200 3750
+Connection ~ 10300 3350
+Wire Wire Line
+	10300 4150 10200 4150
+Connection ~ 10300 3750
+Connection ~ 10300 2550
+Wire Wire Line
+	10300 4150 10300 950 
+Wire Notes Line
+	700  4550 700  5900
+Wire Notes Line
+	700  5900 9900 5900
+Wire Notes Line
+	9900 5900 9900 4550
+Wire Notes Line
+	9900 4550 700  4550
+Wire Notes Line
+	650  800  650  4300
+Wire Notes Line
+	650  4300 10400 4300
+Wire Notes Line
+	10400 4300 10400 800 
+Wire Notes Line
+	10400 800  650  800 
+Wire Notes Line
+	700  6200 700  7600
+Wire Notes Line
+	700  7600 4300 7600
+Wire Notes Line
+	4300 7600 4300 6900
+Wire Notes Line
+	4300 6900 9700 6900
+Wire Notes Line
+	9700 6900 9700 6200
+Wire Notes Line
+	9700 6200 700  6200
+Text Notes 700  750  0    100  ~ 0
+LED matrix
+$EndSCHEMATC

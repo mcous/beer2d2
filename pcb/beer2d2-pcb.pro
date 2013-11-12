@@ -1,6 +1,6 @@
-update=11/11/2013 4:37:00 PM
+update=11/12/2013 3:59:18 PM
 version=1
-last_client=eeschema
+last_client=kicad
 [cvpcb]
 version=1
 NetIExt=net
@@ -43,8 +43,6 @@ LibName13=led
 LibName14=dip_sockets
 LibName15=pga_sockets
 LibName16=valves
-[general]
-version=1
 [eeschema]
 version=1
 LibDir=../../kicad-lib/components
@@ -70,3 +68,5 @@ LibName13=standard
 LibName14=stmicro-mcu
 LibName15=ti-ic
 LibName16=7400
+[general]
+version=1
