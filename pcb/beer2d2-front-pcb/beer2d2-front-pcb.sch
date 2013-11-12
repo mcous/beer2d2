@@ -15,7 +15,7 @@ LIBS:standard
 LIBS:stmicro-mcu
 LIBS:ti-ic
 LIBS:7400
-LIBS:beer2d2-pcb-cache
+LIBS:beer2d2-front-pcb-cache
 EELAYER 27 0
 EELAYER END
 $Descr A 11000 8500
@@ -362,7 +362,7 @@ $Sheet
 S 2650 5750 1300 1100
 U 52828585
 F0 "beer2d2 front LED panel" 50
-F1 "beer2d2-pcb_front-panel.sch" 50
+F1 "beer2d2-front-pcb_leds.sch" 50
 F2 "COL0" I L 2650 5950 60 
 F3 "ROW0" I R 3950 5950 60 
 F4 "ROW1" I R 3950 6050 60 

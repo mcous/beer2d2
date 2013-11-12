@@ -15,7 +15,7 @@ LIBS:standard
 LIBS:stmicro-mcu
 LIBS:ti-ic
 LIBS:7400
-LIBS:beer2d2-pcb-cache
+LIBS:beer2d2-front-pcb-cache
 EELAYER 27 0
 EELAYER END
 $Descr A 11000 8500

@@ -1,4 +1,4 @@
-update=11/12/2013 3:59:18 PM
+update=11/12/2013 4:07:19 PM
 version=1
 last_client=kicad
 [cvpcb]
@@ -45,7 +45,7 @@ LibName15=pga_sockets
 LibName16=valves
 [eeschema]
 version=1
-LibDir=../../kicad-lib/components
+LibDir=../../../kicad-lib/components
 NetFmtName=
 RptD_X=0
 RptD_Y=100
