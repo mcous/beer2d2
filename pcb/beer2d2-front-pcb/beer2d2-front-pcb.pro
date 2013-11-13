@@ -1,6 +1,6 @@
-update=11/12/2013 4:33:03 PM
+update=11/12/2013 7:45:15 PM
 version=1
-last_client=cvpcb
+last_client=kicad
 [pcbnew]
 version=1
 LastNetListRead=
@@ -70,8 +70,8 @@ LibName13=standard
 LibName14=stmicro-mcu
 LibName15=ti-ic
 LibName16=7400
-[general]
-version=1
 [cvpcb]
 version=1
 NetIExt=net
+[general]
+version=1
