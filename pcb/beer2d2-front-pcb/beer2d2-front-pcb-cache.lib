@@ -1,4 +1,4 @@
-EESchema-LIBRARY Version 2.3  Date: 11/12/2013 4:07:15 PM
+EESchema-LIBRARY Version 2.3  Date: 11/12/2013 6:49:51 PM
 #encoding utf-8
 #
 # 4PIN_FEMALE
@@ -105,6 +105,24 @@ P 2 0 1 0  -50 0  -25 0 N
 P 2 0 1 15  -25 75  -25 -75 N
 P 2 0 1 0  25 0  50 0 N
 P 2 0 1 15  25 75  25 -75 N
+X ~ 1 -100 0 50 R 50 50 1 1 P
+X ~ 2 100 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# C_POL
+#
+DEF C_POL C 0 40 N N 1 F N
+F0 "C" -55 95 60 H V C CNN
+F1 "C_POL" 10 -105 60 H V C CNN
+F2 "~" 0 0 60 H I C CNN
+F3 "~" 0 0 60 H I C CNN
+DRAW
+A 100 0 90 1463 -1463 0 1 10 N 25 50 25 -50
+P 2 0 1 0  -50 0  -25 0 N
+P 2 0 1 10  -25 50  -25 -50 N
+P 2 0 1 0  10 0  25 0 N
+P 2 0 1 0  50 0  25 0 N
 X ~ 1 -100 0 50 R 50 50 1 1 P
 X ~ 2 100 0 50 L 50 50 1 1 P
 ENDDRAW
