@@ -22,7 +22,7 @@ $Descr A 11000 8500
 encoding utf-8
 Sheet 1 2
 Title "beer2d2 (working title) head control"
-Date "22 jan 2014"
+Date "23 jan 2014"
 Rev "0.1"
 Comp "Wiley Cousins, LLC."
 Comment1 "shared under the terms of the Creative Commons Attribution Share-Alike 3.0 license"
@@ -162,7 +162,7 @@ L DCIN J1
 U 1 1 5282DFCA
 P 7550 6000
 F 0 "J1" H 7500 5800 60  0000 C CNN
-F 1 "DCIN" H 7550 6200 60  0000 C CNN
+F 1 "6-12V" H 7550 6200 60  0000 C CNN
 F 2 "~" H 7550 6000 60  0000 C CNN
 F 3 "~" H 7550 6000 60  0000 C CNN
 	1    7550 6000
@@ -416,7 +416,7 @@ L ATTINY87/167_SO IC1
 U 1 1 52E06D6B
 P 3250 2550
 F 0 "IC1" H 2300 3550 60  0000 L CNN
-F 1 "ATTINY87/167_SO" H 2300 1550 60  0000 L CNN
+F 1 "ATTINY167" H 2300 1550 60  0000 L CNN
 F 2 "~" H 2300 3250 60  0001 C CNN
 F 3 "~" H 3000 2550 60  0001 C CNN
 F 4 "Atmel" H 2300 1450 60  0001 L CNN "Manufacturer"
