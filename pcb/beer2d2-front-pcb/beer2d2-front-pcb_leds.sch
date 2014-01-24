@@ -16,18 +16,18 @@ LIBS:stmicro-mcu
 LIBS:ti-ic
 LIBS:7400
 LIBS:beer2d2-front-pcb-cache
-EELAYER 27 0
+EELAYER 24 0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
 Sheet 2 2
-Title "bber2d2 (working title) front led panel"
+Title "beer2d2 (working title) front led panel"
 Date "23 jan 2014"
 Rev "0.1"
-Comp "Wiley Cousins, LLC."
+Comp "Wiley Cousins, LLC. for Barton Gilley"
 Comment1 "shared under the terms of the Creative Commons Attribution Share-Alike 3.0 license"
 Comment2 "open source hardware"
-Comment3 ""
+Comment3 "github.com/mcous/beer2d2"
 Comment4 ""
 $EndDescr
 Text HLabel 1600 6750 2    60   Input ~ 0
