@@ -1,5 +1,4 @@
 EESchema Schematic File Version 2
-LIBS:power
 LIBS:7400-ic
 LIBS:analog-ic
 LIBS:avr-mcu

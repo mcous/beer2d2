@@ -1,11 +1,7 @@
-update=Fri 24 Jan 2014 05:13:19 PM CST
+
+update=Fri 24 Jan 2014 07:02:23 PM CST
 version=1
 last_client=kicad
-[cvpcb]
-version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms
 [pcbnew]
 version=1
 LastNetListRead=
@@ -25,8 +21,9 @@ SolderMaskMinWidth=0.000000000000
 DrawSegmentWidth=0.200000000000
 BoardOutlineThickness=0.100000000000
 ModuleOutlineThickness=0.150000000000
-[pcbnew/libraries]
-LibDir=../../../kicad-lib/footprints
+[cvpcb]
+version=1
+NetIExt=net
 [eeschema]
 version=1
 PageLayoutDescrFile=
