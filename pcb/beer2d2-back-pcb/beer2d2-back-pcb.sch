@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:power
 LIBS:7400-ic
 LIBS:analog-ic
 LIBS:avr-mcu
@@ -18,13 +19,13 @@ LIBS:stmicro-mcu
 LIBS:ti-ic
 LIBS:uln-ic
 LIBS:beer2d2-back-pcb-cache
-EELAYER 24 0
+EELAYER 27 0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
 Sheet 1 2
 Title "beer2d2 (working title) back led panel and psi control"
-Date "24 Jan 2014"
+Date "27 jan 2014"
 Rev "0.1"
 Comp "Wiley Cousins, LLC. for Barton Gilley"
 Comment1 "shared under the terms of the Creative Commons Attribution Share-Alike 3.0 license"

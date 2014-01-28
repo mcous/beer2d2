@@ -1,5 +1,5 @@
 
-update=Fri 24 Jan 2014 07:02:23 PM CST
+update=1/27/2014 5:54:11 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -21,9 +21,32 @@ SolderMaskMinWidth=0.000000000000
 DrawSegmentWidth=0.200000000000
 BoardOutlineThickness=0.100000000000
 ModuleOutlineThickness=0.150000000000
-[cvpcb]
-version=1
-NetIExt=net
+[pcbnew/libraries]
+LibName1=analog-devices
+LibName2=asm
+LibName3=bluegiga
+LibName4=bourns
+LibName5=connect_sm
+LibName6=connect_thru
+LibName7=csp
+LibName8=dip
+LibName9=fn-ml
+LibName10=linx
+LibName11=pads
+LibName12=qfp
+LibName13=sharp
+LibName14=sip
+LibName15=sm_cap
+LibName16=sm_gen
+LibName17=sm_led
+LibName18=so
+LibName19=sparkfun
+LibName20=switch
+LibName21=texas
+LibName22=thru_led
+LibName23=to
+LibName24=xtal
+LibDir=../../../kicad-lib/footprints
 [eeschema]
 version=1
 PageLayoutDescrFile=
@@ -55,5 +78,8 @@ LibName16=standard
 LibName17=stmicro-mcu
 LibName18=ti-ic
 LibName19=uln-ic
+[cvpcb]
+version=1
+NetIExt=net
 [general]
 version=1
