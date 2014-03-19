@@ -1,0 +1,10 @@
+Back panel:
+Green, red, yellow - 2V
+Max x = 4.75"  (84 LEDs)
+Max y = 0.875" (4 LEDs)
+
+Front panel
+White, blue - 3V
+Max x   = 1.4"
+Max y   = 0.875"
+Spacing = 0.55"
