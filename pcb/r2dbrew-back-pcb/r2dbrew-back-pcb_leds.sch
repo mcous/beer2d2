@@ -18,19 +18,19 @@ LIBS:standard
 LIBS:stmicro-mcu
 LIBS:ti-ic
 LIBS:uln-ic
-LIBS:beer2d2-back-pcb-cache
+LIBS:r2dbrew-back-pcb-cache
 EELAYER 24 0
 EELAYER END
 $Descr B 17000 11000
 encoding utf-8
 Sheet 2 2
-Title "beer2d2 (working title) back led panel and psi control"
-Date "27 jan 2014"
+Title "r2dbrew rear head led panel and psi control"
+Date "01 Apr 2014"
 Rev "0.1"
 Comp "Wiley Cousins, LLC. for Barton Gilley"
-Comment1 "shared under the terms of the Creative Commons Attribution Share-Alike 3.0 license"
+Comment1 "shared under the terms of the Creative Commons Attribution Share-Alike 4.0 license"
 Comment2 "open source hardware"
-Comment3 "github.com/mcous/beer2d2"
+Comment3 "github.com/mcous/r2dbrew"
 Comment4 ""
 $EndDescr
 Text Label 1500 2100 0    60   ~ 0
