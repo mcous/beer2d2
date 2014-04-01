@@ -322,9 +322,9 @@ Text Label 9800 2850 2    60   ~ 0
 AVR_RX
 Text Label 6950 1350 0    60   ~ 0
 AVR_RST
-Text Label 9900 1350 2    60   ~ 0
-RGB_SCK
 Text Label 9900 1450 2    60   ~ 0
+RGB_SCK
+Text Label 9900 1350 2    60   ~ 0
 RGB_SDA
 NoConn ~ 9400 1600
 NoConn ~ 9400 3250
