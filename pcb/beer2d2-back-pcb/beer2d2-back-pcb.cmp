@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2014-01-22 BZR 4631)-product date = Fri 24 Jan 2014 06:49:23 PM CST
+Cmp-Mod V01 Created by CvPcb (2014-03-18 BZR 4754)-product date = Tue 01 Apr 2014 05:57:10 PM CDT
 
 BeginCmp
 TimeStamp = /52E39658;
@@ -94,15 +94,15 @@ EndCmp
 BeginCmp
 TimeStamp = /52E2D6C5;
 Reference = C14;
-ValeurCmp = 0.33uF;
-IdModule  = general sm:0603(1608m);
+ValeurCmp = 10uF;
+IdModule  = passive-smd:1206(3216m);
 EndCmp
 
 BeginCmp
 TimeStamp = /52E2D747;
 Reference = C15;
-ValeurCmp = 0.1uF;
-IdModule  = general sm:0603(1608m);
+ValeurCmp = 22uF;
+IdModule  = passive-smd:1206(3216m);
 EndCmp
 
 BeginCmp
@@ -239,589 +239,561 @@ IdModule  = th leds:LED-5mm;
 EndCmp
 
 BeginCmp
-TimeStamp = /52E2D889/52E2E876;
+TimeStamp = /52E2D889/52E6E56A;
 Reference = LED7;
 ValeurCmp = LED;
 IdModule  = th leds:LED-5mm;
 EndCmp
 
 BeginCmp
-TimeStamp = /52E2D889/52E2E884;
+TimeStamp = /52E2D889/52E6E547;
 Reference = LED8;
 ValeurCmp = LED;
 IdModule  = th leds:LED-5mm;
 EndCmp
 
 BeginCmp
-TimeStamp = /52E2D889/52E2E890;
+TimeStamp = /52E2D889/52E6E54D;
 Reference = LED9;
 ValeurCmp = LED;
 IdModule  = th leds:LED-5mm;
 EndCmp
 
 BeginCmp
-TimeStamp = /52E2D889/52E2E89C;
+TimeStamp = /52E2D889/52E6E553;
 Reference = LED10;
 ValeurCmp = LED;
 IdModule  = th leds:LED-5mm;
 EndCmp
 
 BeginCmp
-TimeStamp = /52E2D889/52E2E1DB;
+TimeStamp = /52E2D889/52E6E376;
 Reference = LED11;
 ValeurCmp = LED;
 IdModule  = th leds:LED-5mm;
 EndCmp
 
 BeginCmp
-TimeStamp = /52E2D889/52E2E1E9;
+TimeStamp = /52E2D889/52E6E353;
 Reference = LED12;
 ValeurCmp = LED;
 IdModule  = th leds:LED-5mm;
 EndCmp
 
 BeginCmp
-TimeStamp = /52E2D889/52E2E1F5;
+TimeStamp = /52E2D889/52E6E359;
 Reference = LED13;
 ValeurCmp = LED;
 IdModule  = th leds:LED-5mm;
 EndCmp
 
 BeginCmp
-TimeStamp = /52E2D889/52E2E201;
+TimeStamp = /52E2D889/52E6E35F;
 Reference = LED14;
 ValeurCmp = LED;
 IdModule  = th leds:LED-5mm;
 EndCmp
 
 BeginCmp
-TimeStamp = /52E2D889/52E2E52D;
+TimeStamp = /52E2D889/52E6E59F;
 Reference = LED15;
 ValeurCmp = LED;
 IdModule  = th leds:LED-5mm;
 EndCmp
 
 BeginCmp
-TimeStamp = /52E2D889/52E2E53B;
+TimeStamp = /52E2D889/52E6E57C;
 Reference = LED16;
 ValeurCmp = LED;
 IdModule  = th leds:LED-5mm;
 EndCmp
 
 BeginCmp
-TimeStamp = /52E2D889/52E2E547;
+TimeStamp = /52E2D889/52E6E582;
 Reference = LED17;
 ValeurCmp = LED;
 IdModule  = th leds:LED-5mm;
 EndCmp
 
 BeginCmp
-TimeStamp = /52E2D889/52E2E553;
+TimeStamp = /52E2D889/52E6E588;
 Reference = LED18;
 ValeurCmp = LED;
 IdModule  = th leds:LED-5mm;
 EndCmp
 
 BeginCmp
-TimeStamp = /52E2D889/52E2E221;
+TimeStamp = /52E2D889/52E6E3A7;
 Reference = LED19;
 ValeurCmp = LED;
 IdModule  = th leds:LED-5mm;
 EndCmp
 
 BeginCmp
-TimeStamp = /52E2D889/52E2E22F;
+TimeStamp = /52E2D889/52E6E384;
 Reference = LED20;
 ValeurCmp = LED;
 IdModule  = th leds:LED-5mm;
 EndCmp
 
 BeginCmp
-TimeStamp = /52E2D889/52E2E23B;
+TimeStamp = /52E2D889/52E6E38A;
 Reference = LED21;
 ValeurCmp = LED;
 IdModule  = th leds:LED-5mm;
 EndCmp
 
 BeginCmp
-TimeStamp = /52E2D889/52E2E247;
+TimeStamp = /52E2D889/52E6E390;
 Reference = LED22;
 ValeurCmp = LED;
 IdModule  = th leds:LED-5mm;
 EndCmp
 
 BeginCmp
-TimeStamp = /52E2D889/52E2E573;
+TimeStamp = /52E2D889/52E6E5D1;
 Reference = LED23;
 ValeurCmp = LED;
 IdModule  = th leds:LED-5mm;
 EndCmp
 
 BeginCmp
-TimeStamp = /52E2D889/52E2E581;
+TimeStamp = /52E2D889/52E6E5AE;
 Reference = LED24;
 ValeurCmp = LED;
 IdModule  = th leds:LED-5mm;
 EndCmp
 
 BeginCmp
-TimeStamp = /52E2D889/52E2E58D;
+TimeStamp = /52E2D889/52E6E5B4;
 Reference = LED25;
 ValeurCmp = LED;
 IdModule  = th leds:LED-5mm;
 EndCmp
 
 BeginCmp
-TimeStamp = /52E2D889/52E2E599;
+TimeStamp = /52E2D889/52E6E5BA;
 Reference = LED26;
 ValeurCmp = LED;
 IdModule  = th leds:LED-5mm;
 EndCmp
 
 BeginCmp
-TimeStamp = /52E2D889/52E2E267;
+TimeStamp = /52E2D889/52E6E3D8;
 Reference = LED27;
 ValeurCmp = LED;
 IdModule  = th leds:LED-5mm;
 EndCmp
 
 BeginCmp
-TimeStamp = /52E2D889/52E2E275;
+TimeStamp = /52E2D889/52E6E3B5;
 Reference = LED28;
 ValeurCmp = LED;
 IdModule  = th leds:LED-5mm;
 EndCmp
 
 BeginCmp
-TimeStamp = /52E2D889/52E2E281;
+TimeStamp = /52E2D889/52E6E3BB;
 Reference = LED29;
 ValeurCmp = LED;
 IdModule  = th leds:LED-5mm;
 EndCmp
 
 BeginCmp
-TimeStamp = /52E2D889/52E2E28D;
+TimeStamp = /52E2D889/52E6E3C1;
 Reference = LED30;
 ValeurCmp = LED;
 IdModule  = th leds:LED-5mm;
 EndCmp
 
 BeginCmp
-TimeStamp = /52E2D889/52E2E5B9;
+TimeStamp = /52E2D889/52E6E602;
 Reference = LED31;
 ValeurCmp = LED;
 IdModule  = th leds:LED-5mm;
 EndCmp
 
 BeginCmp
-TimeStamp = /52E2D889/52E2E5C7;
+TimeStamp = /52E2D889/52E6E5DF;
 Reference = LED32;
 ValeurCmp = LED;
 IdModule  = th leds:LED-5mm;
 EndCmp
 
 BeginCmp
-TimeStamp = /52E2D889/52E2E5D3;
+TimeStamp = /52E2D889/52E6E5E5;
 Reference = LED33;
 ValeurCmp = LED;
 IdModule  = th leds:LED-5mm;
 EndCmp
 
 BeginCmp
-TimeStamp = /52E2D889/52E2E5DF;
+TimeStamp = /52E2D889/52E6E5EB;
 Reference = LED34;
 ValeurCmp = LED;
 IdModule  = th leds:LED-5mm;
 EndCmp
 
 BeginCmp
-TimeStamp = /52E2D889/52E2E2AD;
+TimeStamp = /52E2D889/52E6E409;
 Reference = LED35;
 ValeurCmp = LED;
 IdModule  = th leds:LED-5mm;
 EndCmp
 
 BeginCmp
-TimeStamp = /52E2D889/52E2E2BB;
+TimeStamp = /52E2D889/52E6E3E6;
 Reference = LED36;
 ValeurCmp = LED;
 IdModule  = th leds:LED-5mm;
 EndCmp
 
 BeginCmp
-TimeStamp = /52E2D889/52E2E2C7;
+TimeStamp = /52E2D889/52E6E3EC;
 Reference = LED37;
 ValeurCmp = LED;
 IdModule  = th leds:LED-5mm;
 EndCmp
 
 BeginCmp
-TimeStamp = /52E2D889/52E2E2D3;
+TimeStamp = /52E2D889/52E6E3F2;
 Reference = LED38;
 ValeurCmp = LED;
 IdModule  = th leds:LED-5mm;
 EndCmp
 
 BeginCmp
-TimeStamp = /52E2D889/52E2E5FF;
+TimeStamp = /52E2D889/52E6E635;
 Reference = LED39;
 ValeurCmp = LED;
 IdModule  = th leds:LED-5mm;
 EndCmp
 
 BeginCmp
-TimeStamp = /52E2D889/52E2E60D;
+TimeStamp = /52E2D889/52E6E612;
 Reference = LED40;
 ValeurCmp = LED;
 IdModule  = th leds:LED-5mm;
 EndCmp
 
 BeginCmp
-TimeStamp = /52E2D889/52E2E619;
+TimeStamp = /52E2D889/52E6E618;
 Reference = LED41;
 ValeurCmp = LED;
 IdModule  = th leds:LED-5mm;
 EndCmp
 
 BeginCmp
-TimeStamp = /52E2D889/52E2E625;
+TimeStamp = /52E2D889/52E6E61E;
 Reference = LED42;
 ValeurCmp = LED;
 IdModule  = th leds:LED-5mm;
 EndCmp
 
 BeginCmp
-TimeStamp = /52E2D889/52E2E2F3;
+TimeStamp = /52E2D889/52E6E43A;
 Reference = LED43;
 ValeurCmp = LED;
 IdModule  = th leds:LED-5mm;
 EndCmp
 
 BeginCmp
-TimeStamp = /52E2D889/52E2E301;
+TimeStamp = /52E2D889/52E6E417;
 Reference = LED44;
 ValeurCmp = LED;
 IdModule  = th leds:LED-5mm;
 EndCmp
 
 BeginCmp
-TimeStamp = /52E2D889/52E2E30D;
+TimeStamp = /52E2D889/52E6E41D;
 Reference = LED45;
 ValeurCmp = LED;
 IdModule  = th leds:LED-5mm;
 EndCmp
 
 BeginCmp
-TimeStamp = /52E2D889/52E2E319;
+TimeStamp = /52E2D889/52E6E423;
 Reference = LED46;
 ValeurCmp = LED;
 IdModule  = th leds:LED-5mm;
 EndCmp
 
 BeginCmp
-TimeStamp = /52E2D889/52E2E645;
+TimeStamp = /52E2D889/52E6E666;
 Reference = LED47;
 ValeurCmp = LED;
 IdModule  = th leds:LED-5mm;
 EndCmp
 
 BeginCmp
-TimeStamp = /52E2D889/52E2E653;
+TimeStamp = /52E2D889/52E6E643;
 Reference = LED48;
 ValeurCmp = LED;
 IdModule  = th leds:LED-5mm;
 EndCmp
 
 BeginCmp
-TimeStamp = /52E2D889/52E2E65F;
+TimeStamp = /52E2D889/52E6E649;
 Reference = LED49;
 ValeurCmp = LED;
 IdModule  = th leds:LED-5mm;
 EndCmp
 
 BeginCmp
-TimeStamp = /52E2D889/52E2E66B;
+TimeStamp = /52E2D889/52E6E64F;
 Reference = LED50;
 ValeurCmp = LED;
 IdModule  = th leds:LED-5mm;
 EndCmp
 
 BeginCmp
-TimeStamp = /52E2D889/52E2E339;
+TimeStamp = /52E2D889/52E6E46B;
 Reference = LED51;
 ValeurCmp = LED;
 IdModule  = th leds:LED-5mm;
 EndCmp
 
 BeginCmp
-TimeStamp = /52E2D889/52E2E347;
+TimeStamp = /52E2D889/52E6E448;
 Reference = LED52;
 ValeurCmp = LED;
 IdModule  = th leds:LED-5mm;
 EndCmp
 
 BeginCmp
-TimeStamp = /52E2D889/52E2E353;
+TimeStamp = /52E2D889/52E6E44E;
 Reference = LED53;
 ValeurCmp = LED;
 IdModule  = th leds:LED-5mm;
 EndCmp
 
 BeginCmp
-TimeStamp = /52E2D889/52E2E35F;
+TimeStamp = /52E2D889/52E6E454;
 Reference = LED54;
 ValeurCmp = LED;
 IdModule  = th leds:LED-5mm;
 EndCmp
 
 BeginCmp
-TimeStamp = /52E2D889/52E2E68B;
+TimeStamp = /52E2D889/52E6E697;
 Reference = LED55;
 ValeurCmp = LED;
 IdModule  = th leds:LED-5mm;
 EndCmp
 
 BeginCmp
-TimeStamp = /52E2D889/52E2E699;
+TimeStamp = /52E2D889/52E6E674;
 Reference = LED56;
 ValeurCmp = LED;
 IdModule  = th leds:LED-5mm;
 EndCmp
 
 BeginCmp
-TimeStamp = /52E2D889/52E2E6A5;
+TimeStamp = /52E2D889/52E6E67A;
 Reference = LED57;
 ValeurCmp = LED;
 IdModule  = th leds:LED-5mm;
 EndCmp
 
 BeginCmp
-TimeStamp = /52E2D889/52E2E6B1;
+TimeStamp = /52E2D889/52E6E680;
 Reference = LED58;
 ValeurCmp = LED;
 IdModule  = th leds:LED-5mm;
 EndCmp
 
 BeginCmp
-TimeStamp = /52E2D889/52E2E37F;
+TimeStamp = /52E2D889/52E6E49C;
 Reference = LED59;
 ValeurCmp = LED;
 IdModule  = th leds:LED-5mm;
 EndCmp
 
 BeginCmp
-TimeStamp = /52E2D889/52E2E38D;
+TimeStamp = /52E2D889/52E6E479;
 Reference = LED60;
 ValeurCmp = LED;
 IdModule  = th leds:LED-5mm;
 EndCmp
 
 BeginCmp
-TimeStamp = /52E2D889/52E2E399;
+TimeStamp = /52E2D889/52E6E47F;
 Reference = LED61;
 ValeurCmp = LED;
 IdModule  = th leds:LED-5mm;
 EndCmp
 
 BeginCmp
-TimeStamp = /52E2D889/52E2E3A5;
+TimeStamp = /52E2D889/52E6E485;
 Reference = LED62;
 ValeurCmp = LED;
 IdModule  = th leds:LED-5mm;
 EndCmp
 
 BeginCmp
-TimeStamp = /52E2D889/52E2E6D1;
+TimeStamp = /52E2D889/52E6E6C8;
 Reference = LED63;
 ValeurCmp = LED;
 IdModule  = th leds:LED-5mm;
 EndCmp
 
 BeginCmp
-TimeStamp = /52E2D889/52E2E6DF;
+TimeStamp = /52E2D889/52E6E6A5;
 Reference = LED64;
 ValeurCmp = LED;
 IdModule  = th leds:LED-5mm;
 EndCmp
 
 BeginCmp
-TimeStamp = /52E2D889/52E2E6EB;
+TimeStamp = /52E2D889/52E6E6AB;
 Reference = LED65;
 ValeurCmp = LED;
 IdModule  = th leds:LED-5mm;
 EndCmp
 
 BeginCmp
-TimeStamp = /52E2D889/52E2E6F7;
+TimeStamp = /52E2D889/52E6E6B1;
 Reference = LED66;
 ValeurCmp = LED;
 IdModule  = th leds:LED-5mm;
 EndCmp
 
 BeginCmp
-TimeStamp = /52E2D889/52E2E3C5;
+TimeStamp = /52E2D889/52E6E4CD;
 Reference = LED67;
 ValeurCmp = LED;
 IdModule  = th leds:LED-5mm;
 EndCmp
 
 BeginCmp
-TimeStamp = /52E2D889/52E2E3D3;
+TimeStamp = /52E2D889/52E6E4AA;
 Reference = LED68;
 ValeurCmp = LED;
 IdModule  = th leds:LED-5mm;
 EndCmp
 
 BeginCmp
-TimeStamp = /52E2D889/52E2E3DF;
+TimeStamp = /52E2D889/52E6E4B0;
 Reference = LED69;
 ValeurCmp = LED;
 IdModule  = th leds:LED-5mm;
 EndCmp
 
 BeginCmp
-TimeStamp = /52E2D889/52E2E3EB;
+TimeStamp = /52E2D889/52E6E4B6;
 Reference = LED70;
 ValeurCmp = LED;
 IdModule  = th leds:LED-5mm;
 EndCmp
 
 BeginCmp
-TimeStamp = /52E2D889/52E2E717;
+TimeStamp = /52E2D889/52E6E6FD;
 Reference = LED71;
 ValeurCmp = LED;
 IdModule  = th leds:LED-5mm;
 EndCmp
 
 BeginCmp
-TimeStamp = /52E2D889/52E2E725;
+TimeStamp = /52E2D889/52E6E6DA;
 Reference = LED72;
 ValeurCmp = LED;
 IdModule  = th leds:LED-5mm;
 EndCmp
 
 BeginCmp
-TimeStamp = /52E2D889/52E2E731;
+TimeStamp = /52E2D889/52E6E6E0;
 Reference = LED73;
 ValeurCmp = LED;
 IdModule  = th leds:LED-5mm;
 EndCmp
 
 BeginCmp
-TimeStamp = /52E2D889/52E2E73D;
+TimeStamp = /52E2D889/52E6E6E6;
 Reference = LED74;
 ValeurCmp = LED;
 IdModule  = th leds:LED-5mm;
 EndCmp
 
 BeginCmp
-TimeStamp = /52E2D889/52E2E40B;
+TimeStamp = /52E2D889/52E6E4FE;
 Reference = LED75;
 ValeurCmp = LED;
 IdModule  = th leds:LED-5mm;
 EndCmp
 
 BeginCmp
-TimeStamp = /52E2D889/52E2E419;
+TimeStamp = /52E2D889/52E6E4DB;
 Reference = LED76;
 ValeurCmp = LED;
 IdModule  = th leds:LED-5mm;
 EndCmp
 
 BeginCmp
-TimeStamp = /52E2D889/52E2E425;
+TimeStamp = /52E2D889/52E6E4E1;
 Reference = LED77;
 ValeurCmp = LED;
 IdModule  = th leds:LED-5mm;
 EndCmp
 
 BeginCmp
-TimeStamp = /52E2D889/52E2E431;
+TimeStamp = /52E2D889/52E6E4E7;
 Reference = LED78;
 ValeurCmp = LED;
 IdModule  = th leds:LED-5mm;
 EndCmp
 
 BeginCmp
-TimeStamp = /52E2D889/52E2E75D;
+TimeStamp = /52E2D889/52E6E72E;
 Reference = LED79;
 ValeurCmp = LED;
 IdModule  = th leds:LED-5mm;
 EndCmp
 
 BeginCmp
-TimeStamp = /52E2D889/52E2E76B;
+TimeStamp = /52E2D889/52E6E70B;
 Reference = LED80;
 ValeurCmp = LED;
 IdModule  = th leds:LED-5mm;
 EndCmp
 
 BeginCmp
-TimeStamp = /52E2D889/52E2E777;
+TimeStamp = /52E2D889/52E6E711;
 Reference = LED81;
 ValeurCmp = LED;
 IdModule  = th leds:LED-5mm;
 EndCmp
 
 BeginCmp
-TimeStamp = /52E2D889/52E2E783;
+TimeStamp = /52E2D889/52E6E717;
 Reference = LED82;
 ValeurCmp = LED;
 IdModule  = th leds:LED-5mm;
 EndCmp
 
 BeginCmp
-TimeStamp = /52E2D889/52E2E451;
+TimeStamp = /52E2D889/52E6E52F;
 Reference = LED83;
 ValeurCmp = LED;
 IdModule  = th leds:LED-5mm;
 EndCmp
 
 BeginCmp
-TimeStamp = /52E2D889/52E2E45F;
+TimeStamp = /52E2D889/52E6E50C;
 Reference = LED84;
 ValeurCmp = LED;
 IdModule  = th leds:LED-5mm;
 EndCmp
 
 BeginCmp
-TimeStamp = /52E2D889/52E2E46B;
+TimeStamp = /52E2D889/52E6E512;
 Reference = LED85;
 ValeurCmp = LED;
 IdModule  = th leds:LED-5mm;
 EndCmp
 
 BeginCmp
-TimeStamp = /52E2D889/52E2E477;
+TimeStamp = /52E2D889/52E6E518;
 Reference = LED86;
-ValeurCmp = LED;
-IdModule  = th leds:LED-5mm;
-EndCmp
-
-BeginCmp
-TimeStamp = /52E2D889/52E2E7A3;
-Reference = LED87;
-ValeurCmp = LED;
-IdModule  = th leds:LED-5mm;
-EndCmp
-
-BeginCmp
-TimeStamp = /52E2D889/52E2E7B1;
-Reference = LED88;
-ValeurCmp = LED;
-IdModule  = th leds:LED-5mm;
-EndCmp
-
-BeginCmp
-TimeStamp = /52E2D889/52E2E7BD;
-Reference = LED89;
-ValeurCmp = LED;
-IdModule  = th leds:LED-5mm;
-EndCmp
-
-BeginCmp
-TimeStamp = /52E2D889/52E2E7C9;
-Reference = LED90;
 ValeurCmp = LED;
 IdModule  = th leds:LED-5mm;
 EndCmp
@@ -1009,617 +981,78 @@ IdModule  = general sm:0603(1608m);
 EndCmp
 
 BeginCmp
-TimeStamp = /52E2D889/52E2E835;
+TimeStamp = /52E2D889/52E6CA04;
 Reference = R7;
 ValeurCmp = 110Ω;
 IdModule  = general sm:0603(1608m);
 EndCmp
 
 BeginCmp
-TimeStamp = /52E2D889/52E2E843;
-Reference = R8;
-ValeurCmp = 110Ω;
-IdModule  = general sm:0603(1608m);
-EndCmp
-
-BeginCmp
-TimeStamp = /52E2D889/52E2E84F;
+TimeStamp = /52E2D889/52E6E370;
 Reference = R9;
 ValeurCmp = 110Ω;
 IdModule  = general sm:0603(1608m);
 EndCmp
 
 BeginCmp
-TimeStamp = /52E2D889/52E2E85B;
-Reference = R10;
-ValeurCmp = 110Ω;
-IdModule  = general sm:0603(1608m);
-EndCmp
-
-BeginCmp
-TimeStamp = /52E2D889/52E2E87C;
+TimeStamp = /52E2D889/52E6E3A1;
 Reference = R11;
 ValeurCmp = 110Ω;
 IdModule  = general sm:0603(1608m);
 EndCmp
 
 BeginCmp
-TimeStamp = /52E2D889/52E2E88A;
-Reference = R12;
-ValeurCmp = 110Ω;
-IdModule  = general sm:0603(1608m);
-EndCmp
-
-BeginCmp
-TimeStamp = /52E2D889/52E2E896;
+TimeStamp = /52E2D889/52E6E3D2;
 Reference = R13;
 ValeurCmp = 110Ω;
 IdModule  = general sm:0603(1608m);
 EndCmp
 
 BeginCmp
-TimeStamp = /52E2D889/52E2E8A2;
-Reference = R14;
-ValeurCmp = 110Ω;
-IdModule  = general sm:0603(1608m);
-EndCmp
-
-BeginCmp
-TimeStamp = /52E2D889/52E2E1E1;
+TimeStamp = /52E2D889/52E6E403;
 Reference = R15;
 ValeurCmp = 110Ω;
 IdModule  = general sm:0603(1608m);
 EndCmp
 
 BeginCmp
-TimeStamp = /52E2D889/52E2E1EF;
-Reference = R16;
-ValeurCmp = 110Ω;
-IdModule  = general sm:0603(1608m);
-EndCmp
-
-BeginCmp
-TimeStamp = /52E2D889/52E2E1FB;
+TimeStamp = /52E2D889/52E6E434;
 Reference = R17;
 ValeurCmp = 110Ω;
 IdModule  = general sm:0603(1608m);
 EndCmp
 
 BeginCmp
-TimeStamp = /52E2D889/52E2E207;
-Reference = R18;
-ValeurCmp = 110Ω;
-IdModule  = general sm:0603(1608m);
-EndCmp
-
-BeginCmp
-TimeStamp = /52E2D889/52E2E533;
+TimeStamp = /52E2D889/52E6E465;
 Reference = R19;
 ValeurCmp = 110Ω;
 IdModule  = general sm:0603(1608m);
 EndCmp
 
 BeginCmp
-TimeStamp = /52E2D889/52E2E541;
-Reference = R20;
-ValeurCmp = 110Ω;
-IdModule  = general sm:0603(1608m);
-EndCmp
-
-BeginCmp
-TimeStamp = /52E2D889/52E2E54D;
+TimeStamp = /52E2D889/52E6E496;
 Reference = R21;
 ValeurCmp = 110Ω;
 IdModule  = general sm:0603(1608m);
 EndCmp
 
 BeginCmp
-TimeStamp = /52E2D889/52E2E559;
-Reference = R22;
-ValeurCmp = 110Ω;
-IdModule  = general sm:0603(1608m);
-EndCmp
-
-BeginCmp
-TimeStamp = /52E2D889/52E2E227;
+TimeStamp = /52E2D889/52E6E4C7;
 Reference = R23;
 ValeurCmp = 110Ω;
 IdModule  = general sm:0603(1608m);
 EndCmp
 
 BeginCmp
-TimeStamp = /52E2D889/52E2E235;
-Reference = R24;
-ValeurCmp = 110Ω;
-IdModule  = general sm:0603(1608m);
-EndCmp
-
-BeginCmp
-TimeStamp = /52E2D889/52E2E241;
+TimeStamp = /52E2D889/52E6E4F8;
 Reference = R25;
 ValeurCmp = 110Ω;
 IdModule  = general sm:0603(1608m);
 EndCmp
 
 BeginCmp
-TimeStamp = /52E2D889/52E2E24D;
-Reference = R26;
-ValeurCmp = 110Ω;
-IdModule  = general sm:0603(1608m);
-EndCmp
-
-BeginCmp
-TimeStamp = /52E2D889/52E2E579;
+TimeStamp = /52E2D889/52E6E529;
 Reference = R27;
-ValeurCmp = 110Ω;
-IdModule  = general sm:0603(1608m);
-EndCmp
-
-BeginCmp
-TimeStamp = /52E2D889/52E2E587;
-Reference = R28;
-ValeurCmp = 110Ω;
-IdModule  = general sm:0603(1608m);
-EndCmp
-
-BeginCmp
-TimeStamp = /52E2D889/52E2E593;
-Reference = R29;
-ValeurCmp = 110Ω;
-IdModule  = general sm:0603(1608m);
-EndCmp
-
-BeginCmp
-TimeStamp = /52E2D889/52E2E59F;
-Reference = R30;
-ValeurCmp = 110Ω;
-IdModule  = general sm:0603(1608m);
-EndCmp
-
-BeginCmp
-TimeStamp = /52E2D889/52E2E26D;
-Reference = R31;
-ValeurCmp = 110Ω;
-IdModule  = general sm:0603(1608m);
-EndCmp
-
-BeginCmp
-TimeStamp = /52E2D889/52E2E27B;
-Reference = R32;
-ValeurCmp = 110Ω;
-IdModule  = general sm:0603(1608m);
-EndCmp
-
-BeginCmp
-TimeStamp = /52E2D889/52E2E287;
-Reference = R33;
-ValeurCmp = 110Ω;
-IdModule  = general sm:0603(1608m);
-EndCmp
-
-BeginCmp
-TimeStamp = /52E2D889/52E2E293;
-Reference = R34;
-ValeurCmp = 110Ω;
-IdModule  = general sm:0603(1608m);
-EndCmp
-
-BeginCmp
-TimeStamp = /52E2D889/52E2E5BF;
-Reference = R35;
-ValeurCmp = 110Ω;
-IdModule  = general sm:0603(1608m);
-EndCmp
-
-BeginCmp
-TimeStamp = /52E2D889/52E2E5CD;
-Reference = R36;
-ValeurCmp = 110Ω;
-IdModule  = general sm:0603(1608m);
-EndCmp
-
-BeginCmp
-TimeStamp = /52E2D889/52E2E5D9;
-Reference = R37;
-ValeurCmp = 110Ω;
-IdModule  = general sm:0603(1608m);
-EndCmp
-
-BeginCmp
-TimeStamp = /52E2D889/52E2E5E5;
-Reference = R38;
-ValeurCmp = 110Ω;
-IdModule  = general sm:0603(1608m);
-EndCmp
-
-BeginCmp
-TimeStamp = /52E2D889/52E2E2B3;
-Reference = R39;
-ValeurCmp = 110Ω;
-IdModule  = general sm:0603(1608m);
-EndCmp
-
-BeginCmp
-TimeStamp = /52E2D889/52E2E2C1;
-Reference = R40;
-ValeurCmp = 110Ω;
-IdModule  = general sm:0603(1608m);
-EndCmp
-
-BeginCmp
-TimeStamp = /52E2D889/52E2E2CD;
-Reference = R41;
-ValeurCmp = 110Ω;
-IdModule  = general sm:0603(1608m);
-EndCmp
-
-BeginCmp
-TimeStamp = /52E2D889/52E2E2D9;
-Reference = R42;
-ValeurCmp = 110Ω;
-IdModule  = general sm:0603(1608m);
-EndCmp
-
-BeginCmp
-TimeStamp = /52E2D889/52E2E605;
-Reference = R43;
-ValeurCmp = 110Ω;
-IdModule  = general sm:0603(1608m);
-EndCmp
-
-BeginCmp
-TimeStamp = /52E2D889/52E2E613;
-Reference = R44;
-ValeurCmp = 110Ω;
-IdModule  = general sm:0603(1608m);
-EndCmp
-
-BeginCmp
-TimeStamp = /52E2D889/52E2E61F;
-Reference = R45;
-ValeurCmp = 110Ω;
-IdModule  = general sm:0603(1608m);
-EndCmp
-
-BeginCmp
-TimeStamp = /52E2D889/52E2E62B;
-Reference = R46;
-ValeurCmp = 110Ω;
-IdModule  = general sm:0603(1608m);
-EndCmp
-
-BeginCmp
-TimeStamp = /52E2D889/52E2E2F9;
-Reference = R47;
-ValeurCmp = 110Ω;
-IdModule  = general sm:0603(1608m);
-EndCmp
-
-BeginCmp
-TimeStamp = /52E2D889/52E2E307;
-Reference = R48;
-ValeurCmp = 110Ω;
-IdModule  = general sm:0603(1608m);
-EndCmp
-
-BeginCmp
-TimeStamp = /52E2D889/52E2E313;
-Reference = R49;
-ValeurCmp = 110Ω;
-IdModule  = general sm:0603(1608m);
-EndCmp
-
-BeginCmp
-TimeStamp = /52E2D889/52E2E31F;
-Reference = R50;
-ValeurCmp = 110Ω;
-IdModule  = general sm:0603(1608m);
-EndCmp
-
-BeginCmp
-TimeStamp = /52E2D889/52E2E64B;
-Reference = R51;
-ValeurCmp = 110Ω;
-IdModule  = general sm:0603(1608m);
-EndCmp
-
-BeginCmp
-TimeStamp = /52E2D889/52E2E659;
-Reference = R52;
-ValeurCmp = 110Ω;
-IdModule  = general sm:0603(1608m);
-EndCmp
-
-BeginCmp
-TimeStamp = /52E2D889/52E2E665;
-Reference = R53;
-ValeurCmp = 110Ω;
-IdModule  = general sm:0603(1608m);
-EndCmp
-
-BeginCmp
-TimeStamp = /52E2D889/52E2E671;
-Reference = R54;
-ValeurCmp = 110Ω;
-IdModule  = general sm:0603(1608m);
-EndCmp
-
-BeginCmp
-TimeStamp = /52E2D889/52E2E33F;
-Reference = R55;
-ValeurCmp = 110Ω;
-IdModule  = general sm:0603(1608m);
-EndCmp
-
-BeginCmp
-TimeStamp = /52E2D889/52E2E34D;
-Reference = R56;
-ValeurCmp = 110Ω;
-IdModule  = general sm:0603(1608m);
-EndCmp
-
-BeginCmp
-TimeStamp = /52E2D889/52E2E359;
-Reference = R57;
-ValeurCmp = 110Ω;
-IdModule  = general sm:0603(1608m);
-EndCmp
-
-BeginCmp
-TimeStamp = /52E2D889/52E2E365;
-Reference = R58;
-ValeurCmp = 110Ω;
-IdModule  = general sm:0603(1608m);
-EndCmp
-
-BeginCmp
-TimeStamp = /52E2D889/52E2E691;
-Reference = R59;
-ValeurCmp = 110Ω;
-IdModule  = general sm:0603(1608m);
-EndCmp
-
-BeginCmp
-TimeStamp = /52E2D889/52E2E69F;
-Reference = R60;
-ValeurCmp = 110Ω;
-IdModule  = general sm:0603(1608m);
-EndCmp
-
-BeginCmp
-TimeStamp = /52E2D889/52E2E6AB;
-Reference = R61;
-ValeurCmp = 110Ω;
-IdModule  = general sm:0603(1608m);
-EndCmp
-
-BeginCmp
-TimeStamp = /52E2D889/52E2E6B7;
-Reference = R62;
-ValeurCmp = 110Ω;
-IdModule  = general sm:0603(1608m);
-EndCmp
-
-BeginCmp
-TimeStamp = /52E2D889/52E2E385;
-Reference = R63;
-ValeurCmp = 110Ω;
-IdModule  = general sm:0603(1608m);
-EndCmp
-
-BeginCmp
-TimeStamp = /52E2D889/52E2E393;
-Reference = R64;
-ValeurCmp = 110Ω;
-IdModule  = general sm:0603(1608m);
-EndCmp
-
-BeginCmp
-TimeStamp = /52E2D889/52E2E39F;
-Reference = R65;
-ValeurCmp = 110Ω;
-IdModule  = general sm:0603(1608m);
-EndCmp
-
-BeginCmp
-TimeStamp = /52E2D889/52E2E3AB;
-Reference = R66;
-ValeurCmp = 110Ω;
-IdModule  = general sm:0603(1608m);
-EndCmp
-
-BeginCmp
-TimeStamp = /52E2D889/52E2E6D7;
-Reference = R67;
-ValeurCmp = 110Ω;
-IdModule  = general sm:0603(1608m);
-EndCmp
-
-BeginCmp
-TimeStamp = /52E2D889/52E2E6E5;
-Reference = R68;
-ValeurCmp = 110Ω;
-IdModule  = general sm:0603(1608m);
-EndCmp
-
-BeginCmp
-TimeStamp = /52E2D889/52E2E6F1;
-Reference = R69;
-ValeurCmp = 110Ω;
-IdModule  = general sm:0603(1608m);
-EndCmp
-
-BeginCmp
-TimeStamp = /52E2D889/52E2E6FD;
-Reference = R70;
-ValeurCmp = 110Ω;
-IdModule  = general sm:0603(1608m);
-EndCmp
-
-BeginCmp
-TimeStamp = /52E2D889/52E2E3CB;
-Reference = R71;
-ValeurCmp = 110Ω;
-IdModule  = general sm:0603(1608m);
-EndCmp
-
-BeginCmp
-TimeStamp = /52E2D889/52E2E3D9;
-Reference = R72;
-ValeurCmp = 110Ω;
-IdModule  = general sm:0603(1608m);
-EndCmp
-
-BeginCmp
-TimeStamp = /52E2D889/52E2E3E5;
-Reference = R73;
-ValeurCmp = 110Ω;
-IdModule  = general sm:0603(1608m);
-EndCmp
-
-BeginCmp
-TimeStamp = /52E2D889/52E2E3F1;
-Reference = R74;
-ValeurCmp = 110Ω;
-IdModule  = general sm:0603(1608m);
-EndCmp
-
-BeginCmp
-TimeStamp = /52E2D889/52E2E71D;
-Reference = R75;
-ValeurCmp = 110Ω;
-IdModule  = general sm:0603(1608m);
-EndCmp
-
-BeginCmp
-TimeStamp = /52E2D889/52E2E72B;
-Reference = R76;
-ValeurCmp = 110Ω;
-IdModule  = general sm:0603(1608m);
-EndCmp
-
-BeginCmp
-TimeStamp = /52E2D889/52E2E737;
-Reference = R77;
-ValeurCmp = 110Ω;
-IdModule  = general sm:0603(1608m);
-EndCmp
-
-BeginCmp
-TimeStamp = /52E2D889/52E2E743;
-Reference = R78;
-ValeurCmp = 110Ω;
-IdModule  = general sm:0603(1608m);
-EndCmp
-
-BeginCmp
-TimeStamp = /52E2D889/52E2E411;
-Reference = R79;
-ValeurCmp = 110Ω;
-IdModule  = general sm:0603(1608m);
-EndCmp
-
-BeginCmp
-TimeStamp = /52E2D889/52E2E41F;
-Reference = R80;
-ValeurCmp = 110Ω;
-IdModule  = general sm:0603(1608m);
-EndCmp
-
-BeginCmp
-TimeStamp = /52E2D889/52E2E42B;
-Reference = R81;
-ValeurCmp = 110Ω;
-IdModule  = general sm:0603(1608m);
-EndCmp
-
-BeginCmp
-TimeStamp = /52E2D889/52E2E437;
-Reference = R82;
-ValeurCmp = 110Ω;
-IdModule  = general sm:0603(1608m);
-EndCmp
-
-BeginCmp
-TimeStamp = /52E2D889/52E2E763;
-Reference = R83;
-ValeurCmp = 110Ω;
-IdModule  = general sm:0603(1608m);
-EndCmp
-
-BeginCmp
-TimeStamp = /52E2D889/52E2E771;
-Reference = R84;
-ValeurCmp = 110Ω;
-IdModule  = general sm:0603(1608m);
-EndCmp
-
-BeginCmp
-TimeStamp = /52E2D889/52E2E77D;
-Reference = R85;
-ValeurCmp = 110Ω;
-IdModule  = general sm:0603(1608m);
-EndCmp
-
-BeginCmp
-TimeStamp = /52E2D889/52E2E789;
-Reference = R86;
-ValeurCmp = 110Ω;
-IdModule  = general sm:0603(1608m);
-EndCmp
-
-BeginCmp
-TimeStamp = /52E2D889/52E2E457;
-Reference = R87;
-ValeurCmp = 110Ω;
-IdModule  = general sm:0603(1608m);
-EndCmp
-
-BeginCmp
-TimeStamp = /52E2D889/52E2E465;
-Reference = R88;
-ValeurCmp = 110Ω;
-IdModule  = general sm:0603(1608m);
-EndCmp
-
-BeginCmp
-TimeStamp = /52E2D889/52E2E471;
-Reference = R89;
-ValeurCmp = 110Ω;
-IdModule  = general sm:0603(1608m);
-EndCmp
-
-BeginCmp
-TimeStamp = /52E2D889/52E2E47D;
-Reference = R90;
-ValeurCmp = 110Ω;
-IdModule  = general sm:0603(1608m);
-EndCmp
-
-BeginCmp
-TimeStamp = /52E2D889/52E2E7A9;
-Reference = R91;
-ValeurCmp = 110Ω;
-IdModule  = general sm:0603(1608m);
-EndCmp
-
-BeginCmp
-TimeStamp = /52E2D889/52E2E7B7;
-Reference = R92;
-ValeurCmp = 110Ω;
-IdModule  = general sm:0603(1608m);
-EndCmp
-
-BeginCmp
-TimeStamp = /52E2D889/52E2E7C3;
-Reference = R93;
-ValeurCmp = 110Ω;
-IdModule  = general sm:0603(1608m);
-EndCmp
-
-BeginCmp
-TimeStamp = /52E2D889/52E2E7CF;
-Reference = R94;
 ValeurCmp = 110Ω;
 IdModule  = general sm:0603(1608m);
 EndCmp
