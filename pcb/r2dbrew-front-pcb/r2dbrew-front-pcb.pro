@@ -1,4 +1,4 @@
-update=Fri 24 Jan 2014 01:10:04 PM CST
+update=Tue 01 Apr 2014 07:34:03 PM CDT
 version=1
 last_client=kicad
 [pcbnew]
@@ -45,8 +45,14 @@ LibName21=thru_led
 LibName22=to
 LibName23=xtal
 LibDir=../../../kicad-lib/footprints
+[cvpcb]
+version=1
+NetIExt=net
 [eeschema]
 version=1
+PageLayoutDescrFile=
+SubpartIdSeparator=0
+SubpartFirstId=65
 LibDir=../../../kicad-lib/components
 NetFmtName=
 RptD_X=0
@@ -69,9 +75,6 @@ LibName12=sparkfun
 LibName13=standard
 LibName14=stmicro-mcu
 LibName15=ti-ic
-LibName16=7400
-[cvpcb]
-version=1
-NetIExt=net
+LibName16=7400-ic
 [general]
 version=1

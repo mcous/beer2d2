@@ -14,20 +14,20 @@ LIBS:sparkfun
 LIBS:standard
 LIBS:stmicro-mcu
 LIBS:ti-ic
-LIBS:7400
-LIBS:beer2d2-front-pcb-cache
+LIBS:7400-ic
+LIBS:r2dbrew-front-pcb-cache
 EELAYER 24 0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
 Sheet 2 2
-Title "beer2d2 (working title) front led panel"
-Date "23 jan 2014"
+Title "r2dbrew front LED panel"
+Date "01 Apr 2014"
 Rev "0.1"
 Comp "Wiley Cousins, LLC. for Barton Gilley"
-Comment1 "shared under the terms of the Creative Commons Attribution Share-Alike 3.0 license"
+Comment1 "shared under the terms of the Creative Commons Attribution Share-Alike 4.0 license"
 Comment2 "open source hardware"
-Comment3 "github.com/mcous/beer2d2"
+Comment3 "github.com/mcous/r2dbrew"
 Comment4 ""
 $EndDescr
 Text HLabel 1600 6750 2    60   Input ~ 0

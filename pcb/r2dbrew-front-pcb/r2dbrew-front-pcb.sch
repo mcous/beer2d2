@@ -14,20 +14,20 @@ LIBS:sparkfun
 LIBS:standard
 LIBS:stmicro-mcu
 LIBS:ti-ic
-LIBS:7400
-LIBS:beer2d2-front-pcb-cache
+LIBS:7400-ic
+LIBS:r2dbrew-front-pcb-cache
 EELAYER 24 0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
 Sheet 1 2
-Title "beer2d2 (working title) front led panel"
-Date "23 jan 2014"
+Title "r2dbrew front LED panel"
+Date "01 Apr 2014"
 Rev "0.1"
 Comp "Wiley Cousins, LLC. for Barton Gilley"
-Comment1 "shared under the terms of the Creative Commons Attribution Share-Alike 3.0 license"
+Comment1 "shared under the terms of the Creative Commons Attribution Share-Alike 4.0 license"
 Comment2 "open source hardware"
-Comment3 "github.com/mcous/beer2d2"
+Comment3 "github.com/mcous/r2dbrew"
 Comment4 ""
 $EndDescr
 $Comp
@@ -259,7 +259,7 @@ L C_POL C5
 U 1 1 5282BC10
 P 7600 2250
 F 0 "C5" V 7600 2400 60  0000 C CNN
-F 1 "0.1uF" V 7700 2450 60  0000 C CNN
+F 1 "10uF" V 7700 2450 60  0000 C CNN
 F 2 "~" H 7600 2250 60  0001 C CNN
 F 3 "~" H 7600 2250 60  0001 C CNN
 	1    7600 2250
@@ -270,7 +270,7 @@ L C_POL C6
 U 1 1 5282BCA1
 P 8550 2150
 F 0 "C6" V 8650 2000 60  0000 C CNN
-F 1 "0.33uF" V 8750 1900 60  0000 C CNN
+F 1 "22uF" V 8750 1950 60  0000 C CNN
 F 2 "~" H 8550 2150 60  0001 C CNN
 F 3 "~" H 8550 2150 60  0001 C CNN
 	1    8550 2150
@@ -298,7 +298,7 @@ $Sheet
 S 7050 3600 1300 1100
 U 52828585
 F0 "beer2d2 front LED panel" 50
-F1 "beer2d2-front-pcb_leds.sch" 50
+F1 "r2dbrew-front-pcb_leds.sch" 50
 F2 "AVR_C0" I L 7050 4400 60 
 F3 "AVR_R0" I R 8350 4500 60 
 F4 "AVR_R1" I R 8350 4400 60 
