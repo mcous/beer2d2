@@ -66,14 +66,17 @@ int main(void) {
 
   // infinite loop
   // randomly set LEDs
+  // alternate between turning leds on (or) and off (and not)
   bool add = true;
   for (;;) {
-    // generate a new random frame
+    // generate a new random frame for each column
     for (uint8_t i=0; i<N_COLS; i++) {
+      // if it's an add cycle, or the current column with a new random configuration
       if (add) {
         add = false;
         column[i] |= (uint8_t)(rand() & 0xFF);
       }
+      // if it's a remove cycle, do the opposite
       else {
         add = true;
         column[i] &= ~(uint8_t)(rand() & 0xFF);
