@@ -34,7 +34,7 @@ SRC = $(PRJ).cpp
 # e.g. INC = ../../EyeToSee ../../YouSART
 INC = 
 # any defines to send the compiler
-DEF = F_CPU=$(CLK)
+DEF = F_CPU=$(CLK) LEDTEST
 # directories
 OBJDIR = ../bin/obj
 EXEDIR = ../bin/exe

@@ -34,7 +34,7 @@ int main(void) {
     for (uint8_t col=0; col<11; col++) {
       disableLeds();
       setCol(col);
-      _delay_ms(300);
+      _delay_ms(100);
       enableLeds();
     }
   }
