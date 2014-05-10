@@ -21,15 +21,15 @@ MCU = atmega328p
 # mcu clock frequency
 CLK = 16000000
 # avr programmer (and port if necessary)
-#PRG = avrispv2 -P usb -b 115200 -vvv
-PRG = avrisp -P /dev/ttyACM1 -b 19200
+PRG = arduino -P /dev/ttyUSB0
+#PRG = avrisp -P /dev/ttyACM1 -b 19200
 # fuse bit values for v0.1 pcb
 # set fuse values to 16MHz Arduino Uno values
 LFU = 0xFF
 HFU = 0xDE
 EFU = 0x05
 # program source files
-SRC = $(PRJ).cpp
+SRC = $(PRJ).cpp TLC5971.cpp
 # where to look for included libraries (consisting of .c/.cpp files and .h files)
 # e.g. INC = ../../EyeToSee ../../YouSART
 INC = 
