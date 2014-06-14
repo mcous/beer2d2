@@ -66,7 +66,7 @@ void TLC5971::init() {
 //     - { fc0, fc1, ... , fcN }
 //   - *bc: array of N*3 uint8_t for brightness correction
 //     - { bcR0, bcG0, bcB0, bcR1, bcG1, ... , bcBN }
-//   - *gs: array of N*12 uint16_t for greyscale data (PWM)  
+//   - *gs: array of N*12 uint16_t for greyscale data (PWM)
 //     - { gs0.0, gs0.1, gs0.2, gs0.3, gs0.4, ... , gs1.0, gs1.1, ... , gsN.12 }
 void TLC5971::setGS(uint16_t *g) {
   // do this for all the drivers
@@ -117,46 +117,13 @@ void TLC5971::setFC(uint8_t f) {
 void TLC5971::sendData(uint8_t data, uint8_t n) {
   // for n bits
   for (int8_t i=n-1; i>=0; i--) {
-    /*
-    // if MOSI and SCK are on the same port
-    #if TLC_MOSI_PORT = TLC_SCK_PORT
-    // pull the clock line low and set the data bit
-    TLC_SCK_PORT = ((TLC_SCK_PORT & ~((1<<TLC_SCK_PIN) | (1<<TLC_MOSI_PIN))) | (((data>>i) & 1) << TLC_MOSI_PIN));
-    // pull the clock line high (data clocked in on rising edge)
-    TLC_SCK_PORT |= (1<<TLC_SCK_PIN);
-
-    // else, the pins are on different ports
-    #else
-    */
     // pull the clock line low
     TLC_SCK_PORT &= ~(1 << TLC_SCK_PIN);
     // set the data bit
     TLC_MOSI_PORT = ((TLC_MOSI_PORT & ~(1<<TLC_MOSI_PIN)) | (((data>>i) & 1) << TLC_MOSI_PIN));
     // pull the clock line high to clock in data
     TLC_SCK_PORT |= (1 << TLC_SCK_PIN);
-
-    //#endif
   }
-
-
-
-  /*
-  // ensure the clock line is low
-  // *sckPort &= ~(1 << sckPin);
-  // for nBits
-  for (int8_t i=n-1; i>=0; i--) {
-    // set or clear the MOSI pin
-    if (data & (1 << i)) {
-      *mosiPort |= (1 << mosiPin);
-    }
-    else {
-      *mosiPort &= ~(1 << mosiPin);
-    }
-    // pulse the serial clock
-    *sckPort |= (1 << sckPin);
-    *sckPort &= ~(1 << sckPin);
-  }
-  */
 }
 
 // send the write command to the device (6-bits = 0x25 = 0b100101)

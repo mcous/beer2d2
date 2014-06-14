@@ -28,7 +28,7 @@ public:
   // control the chip(s)
   // parameters
   //   - *gs: array of n*12 uint16_t for greyscale data (PWM)
-  //   - *bc: array of 3 uint8_t for brightness correction 
+  //   - *bc: array of 3 uint8_t for brightness correction
   //   - fc: uint8_t for function control
   void setGS(uint16_t *g);
   void setBC(uint8_t b);
@@ -44,8 +44,8 @@ private:
   void sendBC();
   // send the greyscale
   void sendGS();
-  // send generic data
-  void sendData(uint8_t, uint8_t);
+  // send n bits from a data byte
+  void sendData(uint8_t data, uint8_t n);
 
   // control registers
   // function control

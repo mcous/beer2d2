@@ -19,10 +19,10 @@ PRJ = r2back
 # avr mcu
 MCU = atmega328p
 # mcu clock frequency
-CLK = 16000000
+CLK = 16000000L
 # avr programmer (and port if necessary)
-PRG = arduino -P /dev/ttyUSB0
-#PRG = avrisp -P /dev/ttyACM1 -b 19200
+#PRG = arduino -P /dev/ttyUSB1
+PRG = avrisp -P /dev/ttyACM1 -b 19200
 # fuse bit values for v0.1 pcb
 # set fuse values to 16MHz Arduino Uno values
 LFU = 0xFF
@@ -32,9 +32,9 @@ EFU = 0x05
 SRC = $(PRJ).cpp TLC5971.cpp
 # where to look for included libraries (consisting of .c/.cpp files and .h files)
 # e.g. INC = ../../EyeToSee ../../YouSART
-INC = 
+INC =
 # any defines to send the compiler
-DEF = F_CPU=$(CLK) LEDTEST
+DEF = F_CPU=$(CLK) # LEDTEST
 # directories
 OBJDIR = ../bin/obj
 EXEDIR = ../bin/exe
@@ -115,9 +115,9 @@ $(MAPDIR):
 
 # pattern matching for object files
 # objects from c files
-%.o : %.c 
+%.o : %.c
 	$(CC) $(CFLAGS) -c $< -o $(OBJDIR)/$(notdir $@)
 
 # objects from c++ files
-%.o : %.cpp 
+%.o : %.cpp
 	$(CC) $(CFLAGS) $(CPPFLAGS) -c $< -o $(OBJDIR)/$(notdir $@)
